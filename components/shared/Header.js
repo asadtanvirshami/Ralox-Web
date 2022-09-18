@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/Image";
-import { Button, Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import Logo from "../../public/logo hail.png";
 
 export const Header = () => {
