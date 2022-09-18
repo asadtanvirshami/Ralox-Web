@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/Image";
 import React from "react";
 import { Button, Container } from "react-bootstrap";
 import arrow from "../../../public/arrow.png";

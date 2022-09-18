@@ -1,4 +1,4 @@
-import Image from 'next/Image';
+import Image from "next/Image";
 import React from 'react'
 import {Carousel} from 'react-bootstrap';
 import img_1 from '../../../public/work.jpg'

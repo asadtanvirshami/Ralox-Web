@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/dist/client/image";
+import Image from "next/Image";
 import { Button, Container, Row } from "react-bootstrap";
 import shape01 from "../../../public/services.png";
 import arrow from "../../../public/arrow.png";
