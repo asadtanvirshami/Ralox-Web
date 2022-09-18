@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from 'next/image'
 import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import Logo from "../../public/logo hail.png";
 
