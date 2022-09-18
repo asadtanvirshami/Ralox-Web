@@ -65,11 +65,52 @@ text-align: justify;
     left:100%;
 }
 
+.aboutus-col  {
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateX(0);
+    }
+ }
+ 
+ @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+ 
+ .fadeInLeft {
+ -webkit-animation-name: fadeInLeft;
+ animation-name: fadeInLeft;
+ } 
+
+
 // Services Sectio
 .service-card{
     margin-top: 20px;
     border: 1px silver solid;
     border-radius: 30px;
+}
+.learnmore-div{
+text-align: center !important;
+position: relative !important;
+max-height: 180% !important;
 }
 .service-heading{
     font-weight: 700;
@@ -83,13 +124,8 @@ text-align: justify;
     color: gray;
     font-weight: lighter;
 }
-.learnmore-div{
-text-align: center !important;
-position: relative !important;
-max-height: 180% !important;
-}
+
 .learnmore-btn{
-    display: inline-block;
     background-color: #0c73bb;
     width: 140px;
     padding-left: 20px;

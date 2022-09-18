@@ -11,10 +11,10 @@ import img5 from "../../../public/seo.png";
 export const ServicesSection = () => {
   return (
     <Container>
-      <div className="services-main-div mt-5 ">
+      <div className="services-main-div mt-5 " >
         <h1 className="text-center service-heading mb-5">Our Services</h1>
         <div className="justify-content-center row p-2">
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3"  data-aos="flip-left">
             <Image src={img1} />
             <h4 className="text-center service-card-heading">
               YOUTUBE ADS MANAGEMENT
@@ -42,7 +42,7 @@ export const ServicesSection = () => {
               </Button>
             </div>
           </div>
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3" data-aos="flip-left">
             <div className="mt-5">
               <Image src={img2} className="" />
             </div>
@@ -75,7 +75,7 @@ export const ServicesSection = () => {
               </Button>
             </div>
           </div>
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3" data-aos="flip-left">
             <div className="mt-5">
               <Image src={img3} className="" />
             </div>
@@ -107,7 +107,7 @@ export const ServicesSection = () => {
               </Button>
             </div>
           </div>
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3" data-aos="flip-left">
             <div className="mt-5 px-5">
               <Image src={img4} height={200} width={200} className="" />
             </div>
@@ -138,7 +138,7 @@ export const ServicesSection = () => {
               </Button>
             </div>
           </div>
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3" data-aos="flip-left">
             <div className="mt-5">
               <Image src={img5} className="" />
             </div>
@@ -169,7 +169,7 @@ export const ServicesSection = () => {
               </Button>
             </div>
           </div>
-          <div className="service-card col-md-3 mx-3">
+          <div className="service-card col-md-3 mx-3" data-aos="flip-left">
             <div className="mt-5">
               <Image src={img3} className="" />
             </div>

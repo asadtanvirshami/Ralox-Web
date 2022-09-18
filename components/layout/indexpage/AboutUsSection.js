@@ -1,16 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Image from 'next/image'
 import { Button, Container, Row } from "react-bootstrap";
 import shape01 from "../../../public/services.png";
 import arrow from "../../../public/arrow.png";
-import Aos from "aos";
+import "aos/dist/aos.css"
+import aos from 'aos'
 
 export const AboutUsSection = () => {
+  useEffect(() => {
+    aos.init({
+      duration: 1000
+    });
+     
+  }, [])
+  
   return (
     <Container>
       <div className="main-div mt-5 px-4">
         <Row className="aboutus-row">
-          <div className="aboutus-col col-md-6 mt-5">
+          <div  className="aboutus-col col-md-6 mt-5" >
             <li className="aboutus-heading">ABOUT US</li>
             <h1 className="paragraph-heading">Making great thing Possible</h1>
             <p className="paragraph-text mt-3">
