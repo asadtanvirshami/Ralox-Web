@@ -1,3 +1,155 @@
-.image_tag{
-    height: 100vh !important;
+// AboutUsSection
+.main-div {
+background-image: url('../public/back.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.aboutus-heading {
+color: #0c73bb;
+font-weight: 600;
+}
+.paragraph-heading {
+font-weight: 700;
+}
+.paragraph-text {
+text-align: justify;
+}
+.sub-headings {
+color: #0c73bb;
+}
+.process-div {
+ display: flex;
+flex-wrap: nowrap;
+}
+.main-span{
+background-image: url('../public/checkmark.png');
+background-repeat: no-repeat;
+background-size:31px;
+padding-bottom: 1px;
+padding-left: 30px;  /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+}
+.sub-text{
+text-align: justify;    
+}
+.aboutus-btn{
+    display: inline-block;
+    background-color: #0c73bb;
+    width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:30px;
+    font-weight: 630;
+    font-size:23px;
+    position: relative !important ;
+    overflow:hidden !important ;
+}
+.aboutus-btn:hover{
+    background-color: #0c73bb !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:30px;
+    font-weight: 630;
+}
+.aboutus-btn::before{
+    content: '' !important;
+    position: absolute !important;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgb(250, 243, 243),transparent);
+    transition:0.5s;
+}
+.aboutus-btn:hover::before{
+    left:100%;
+}
+
+// Services Sectio
+.service-card{
+    margin-top: 20px;
+    border: 1px silver solid;
+    border-radius: 30px;
+}
+.service-heading{
+    font-weight: 700;
+}
+.service-card-heading{
+    font-weight: 700;
+}
+.service-text{
+    text-align: justify;
+    padding: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+.learnmore-div{
+text-align: center !important;
+position: relative !important;
+max-height: 180% !important;
+}
+.learnmore-btn{
+    display: inline-block;
+    background-color: #0c73bb;
+    width: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    border-radius:30px;
+    font-weight: 630;
+    font-size:18px;
+    position: relative !important ;
+    overflow:hidden !important ;
+    transform: translateY(55%);
+}
+.learnmore-btn:hover{
+    background-color: #0c73bb !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:30px;
+    font-weight: 630;
+}
+.learnmore-btn::before{
+    content: '' !important;
+    position: absolute !important;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,rgb(250, 243, 243),transparent);
+    transition:0.5s;
+}
+.learnmore-btn:hover::before{
+    left:100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .service-card {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .service-card {
+        width: 19.5rem !important;
+    }
+}
+@media only screen and (max-width: 936px) {
+    .service-card {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .service-card {
+        width: 19.5rem !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .service-card {
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .service-card {
+        width: 19.5rem !important;
+    }
 }

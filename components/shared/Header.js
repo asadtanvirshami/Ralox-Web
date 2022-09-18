@@ -7,14 +7,14 @@ export const Header = () => {
   return (
     <>
      
-        <Navbar collapseOnSelect expand="sm" >
-          <Container>
-            <Navbar.Brand>
+        <Navbar collapseOnSelect expand="md mx-2" style={{}} >
+    
+            <Navbar.Brand className="" >
               <Image src={Logo} width={200} height={60} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Container className="nav_container">
+   
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-`}
                   aria-labelledby={`offcanvasNavbarLabel-expand`}
@@ -27,28 +27,28 @@ export const Header = () => {
                     </Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
-                    <Nav className="justify-content-center flex-grow-1 pe-3 mx-2">
-                      <Nav.Link href="/" className="page-links">
+                    <Nav className="justify-content-center flex-grow-1 pe-1 " >
+                      <Nav.Link href="/" className="page-links px-3">
                         Home
                       </Nav.Link>
-                      <Nav.Link href="/about" className="page-links">
+                      <Nav.Link href="/about" className="page-links px-3">
                         About Us
                       </Nav.Link>
-                      <Nav.Link href="/services" className="page-links">
+                      <Nav.Link href="/services" className="page-links px-3">
                         Services
                       </Nav.Link>
-                      <Nav.Link href="/clients" className="page-links">
+                      <Nav.Link href="/clients" className="page-links px-3">
                         Our Clients
                       </Nav.Link>
                     </Nav>
                     <div style={{}}>
-                      <Button className="contact_btn">Contact Us</Button>
+                      <Button href="/contact" className="contact_btn">Contact Us</Button>
                     </div>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
-              </Container>
+            
             </Navbar.Collapse>
-          </Container>
+    
         </Navbar>
    
     </>

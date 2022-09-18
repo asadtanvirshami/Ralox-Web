@@ -1,9 +1,7 @@
 import Image from 'next/Image';
 import React from 'react'
 import {Carousel} from 'react-bootstrap';
-import img_1 from '../../../public/image.jpeg'
-import img_2 from '../../../public/worktwo.jpg'
-import img_3 from '../../../public/imagethree.jpg'
+import img_1 from '../../../public/work.jpg'
 
 export const Carousels = () => {
   return (
@@ -11,7 +9,9 @@ export const Carousels = () => {
          <Carousel>
       <Carousel.Item style={{alignSelf:'center'}}>
         <Image
-          className="d-block w-100 "
+          className="d-block w-100 img-fluid"
+          height={800}
+          width={2000}
           src={img_1}
           />
         <Carousel.Caption>
@@ -21,10 +21,10 @@ export const Carousels = () => {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="d-block w-100"
-          height={700}
-          src={img_2}
-          alt="Second slide"
+          className="d-block w-100 img-fluid"
+          height={800}
+          width={2000}
+          src={img_1}
         />
 
         <Carousel.Caption>
@@ -34,9 +34,10 @@ export const Carousels = () => {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="d-block w-100"
-          src={img_3}
-          alt="Third slide"
+          className="d-block w-100 img-fluid"
+          height={800}
+          width={2000}
+          src={img_1}
         />
 
         <Carousel.Caption>

@@ -1,11 +1,14 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import AboutUsSection from './AboutUsSection'
 import { Carousels } from './Carousels'
+import ServicesSection from './ServicesSection'
 
 export const Index = () => {
   return (
     <div>
         <Carousels/>
+        <AboutUsSection/>
+        <ServicesSection/>
     </div>
   )
 }
