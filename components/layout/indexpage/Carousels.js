@@ -1,53 +1,67 @@
 import Image from 'next/image'
 import React from 'react'
-import {Carousel} from 'react-bootstrap';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import img_1 from '../../../public/work.jpg'
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 export const Carousels = () => {
   return (
     <div>
-         <Carousel>
-      <Carousel.Item style={{alignSelf:'center'}}>
-        <Image
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+       <SwiperSlide >
+        <img
+          className="img-fluid"
+          src={'work.jpg'}
+          />
+          <div className='text-div'>
+          <h3 >First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+      </SwiperSlide>
+     
+       <SwiperSlide>
+        <img
           className="d-block w-100 img-fluid"
           height={800}
           width={2000}
-          src={img_1}
+          src={'work.jpg'}
           />
-        <Carousel.Caption>
+        <div>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image
+        </div>
+      </SwiperSlide>
+     
+       <SwiperSlide>
+        <img
           className="d-block w-100 img-fluid"
           height={800}
           width={2000}
-          src={img_1}
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image
-          className="d-block w-100 img-fluid"
-          height={800}
-          width={2000}
-          src={img_1}
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+          src={'work.jpg'}
+          />
+        <div>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </SwiperSlide>
+     
+    </Swiper>
     </div>
   )
 }
