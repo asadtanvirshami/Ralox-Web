@@ -5,12 +5,12 @@ import VisibilitySensor from "react-visibility-sensor";
 
 export const Count = () => {
   return (
-    <Container style={{ marginTop: 100 }}>
+    <Container style={{ marginTop: 200 }}>
       <Row className="countup-div">
-        <Col md={3} xs={12}>
+        <Col md={3} xs={12} >
           <ul>
             <li>
-              <h3>Active Clients</h3>
+              <h3>ACTIVE CLIENTS</h3>
             </li>
             <li className="countup-number">
               <CountUp end={20} redraw={true}>
@@ -25,13 +25,13 @@ export const Count = () => {
           </ul>
         </Col>
 
-        <Col md={3} xs={12}>
+        <Col md={3} xs={12} >
           <ul>
             <li>
-              <h3>Active Clients</h3>
+              <h3>PROJECTS DONE</h3>
             </li>
             <li className="countup-number">
-              <CountUp end={100} redraw={true}>
+              <CountUp end={50} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />
@@ -43,13 +43,13 @@ export const Count = () => {
           </ul>
         </Col>
 
-        <Col md={3} xs={12}>
+        <Col md={3} xs={12} style={{padding:0}}>
           <ul>
             <li>
-              <h3>Active Clients</h3>
+              <h3>PROJECT ADVISORS</h3>
             </li>
             <li className="countup-number">
-              <CountUp end={100} redraw={true}>
+              <CountUp end={10} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />
@@ -61,13 +61,13 @@ export const Count = () => {
           </ul>
         </Col>
 
-        <Col md={3} xs={12}>
+        <Col md={3} xs={12} >
           <ul>
             <li>
-              <h3>Active Clients</h3>
+              <h3>GLORIOUS YEARS</h3>
             </li>
             <li className="countup-number">
-              <CountUp end={100} redraw={true}>
+              <CountUp end={2} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />

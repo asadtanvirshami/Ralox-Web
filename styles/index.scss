@@ -112,7 +112,7 @@ text-align: justify;
  } 
 
 
-// Services Sectio
+// Services Section
 .service-card{
     flex-direction:column;
     display: flex;
@@ -120,11 +120,12 @@ text-align: justify;
     border: 1px silver solid;
     border-radius: 30px;
 }
-.learnmore-div{
-    display: flex;
-    align-self: center;
-    position: relative !important;
+.image-div{
+    flex: 7;
+    align-self:center;  
+    padding: 10px;
 }
+
 .service-heading{
     font-weight: 700;
 }
@@ -133,22 +134,24 @@ text-align: justify;
 }
 .service-text{
     text-align: justify;
-    padding: 20px;
     color: gray;
     font-weight: lighter;
 }
-.learnmore-btn{
+.learnmore-div{
+    flex: 1;
+    align-self:center; 
+    }
+.learnmore-btn{ 
     background-color: #0c73bb;
     width: 140px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 15px;
     border-radius:30px;
     font-weight: 630;
     font-size:18px;
     position: relative !important ;
     overflow:hidden !important ;
-    transform: translateY(55%);
+    transform: translateY(35%);
 }
 .learnmore-btn:hover{
     background-color: #0c73bb !important;
@@ -207,6 +210,7 @@ text-align: justify;
     background: url('../public/count.png')  no-repeat fixed;
     background-size:150% 150%;
     color: white;
+    text-align: center !important;
     align-self: center !important;
     padding: 83px;
     border-radius:10px;

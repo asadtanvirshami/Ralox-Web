@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
-import Logo from "../../public/logo hail.png";
+import Logo from "../../public/logohail.png";
 
 export const Header = () => {
   return (
@@ -27,18 +27,18 @@ export const Header = () => {
                 <Nav.Link href="/" className="page-links px-3">
                   Home
                 </Nav.Link>
-                <Nav.Link href="/about" className="page-links px-3">
+                <Nav.Link href="/" className="page-links px-3">
                   About Us
                 </Nav.Link>
-                <Nav.Link href="/services" className="page-links px-3">
+                <Nav.Link href="/" className="page-links px-3">
                   Services
                 </Nav.Link>
-                <Nav.Link href="/clients" className="page-links px-3">
+                <Nav.Link href="/" className="page-links px-3">
                   Our Clients
                 </Nav.Link>
               </Nav>
               <div style={{}}>
-                <Button href="/contact" className="contact_btn">
+                <Button href="/" className="contact_btn">
                   Contact Us
                 </Button>
               </div>
