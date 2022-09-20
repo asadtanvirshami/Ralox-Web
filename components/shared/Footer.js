@@ -44,10 +44,10 @@ export const Footer = () => {
         <Col md={3} xs={12} xl={2} className="page-col">
           <ul>
             <li className="text-list"><h3>Pages</h3></li>
-          <a href="/" className="text-list"><li className="text-list"><h6>Home</h6></li></a>
-          <a href="/" className="text-list"><li className="text-list"><h6>Services</h6></li></a>
-          <a href="/" className="text-list"><li className="text-list"><h6>Contact Us</h6></li></a>
-          <a href="/" className="text-list"><li className="text-list"><h6>About Us</h6></li></a>
+          <Link href="/" className="text-list"><li className="text-list"><h6>Home</h6></li></Link>
+          <Link href="/" className="text-list"><li className="text-list"><h6>Services</h6></li></Link>
+          <Link href="/" className="text-list"><li className="text-list"><h6>Contact Us</h6></li></Link>
+          <Link href="/" className="text-list"><li className="text-list"><h6>About Us</h6></li></Link>
           </ul>
         </Col>
       </Row>
