@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import Logo from "../../public/logohailwhite.png";
+import Logo from "../../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 

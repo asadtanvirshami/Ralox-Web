@@ -11,7 +11,7 @@
 
 // AboutUsSection
 .main-div {
-background-image: url('../public/back.png');
+background-image: url('../../public/icons/back.png');
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -33,7 +33,7 @@ color: #0c73bb;
 flex-wrap: nowrap;
 }
 .main-span{
-background-image: url('../public/checkmark.png');
+background-image: url('../../public/icons/checkmark.png');
 background-repeat: no-repeat;
 background-size:31px;
 padding-bottom: 1px;
@@ -45,7 +45,7 @@ text-align: justify;
 }
 .aboutus-btn{
     display: inline-block;
-    background-color: #0c73bb;
+    background-color: #ff934c;
     width: 180px;
     padding-left: 20px;
     padding-right: 20px;
@@ -56,7 +56,7 @@ text-align: justify;
     overflow:hidden !important ;
 }
 .aboutus-btn:hover{
-    background-color: #0c73bb !important;
+    background-color: #000000 !important;
     padding-left: 20px;
     padding-right: 20px;
     border-radius:30px;
@@ -114,10 +114,11 @@ text-align: justify;
 
 // Services Section
 .service-card{
+    background-color: #ff944cd0;
     flex-direction:column;
     display: flex;
     margin-top: 25px;
-    border: 1px silver solid;
+    border: 1px #ff934c;
     border-radius: 30px;
 }
 .image-div{
@@ -134,7 +135,7 @@ text-align: justify;
 }
 .service-text{
     text-align: justify;
-    color: gray;
+    color: #000000;
     font-weight: lighter;
 }
 .learnmore-div{
@@ -142,7 +143,7 @@ text-align: justify;
     align-self:center; 
     }
 .learnmore-btn{ 
-    background-color: #0c73bb;
+    background-color: #161515;
     width: 140px;
     padding-left: 20px;
     padding-right: 20px;
@@ -207,7 +208,7 @@ text-align: justify;
 
 // CountUp section
 .countup-div{
-    background: url('../public/count.png')  no-repeat fixed;
+    background: url('../../public/icons/count.png')  no-repeat fixed;
     background-size:150% 150%;
     color: white;
     text-align: center !important;

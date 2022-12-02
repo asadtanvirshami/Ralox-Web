@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { Button, Container } from "react-bootstrap";
-import arrow from "../../../public/arrow.png";
-import img1 from "../../../public/YT.png";
-import img2 from "../../../public/facebook.png";
-import img3 from "../../../public/web.png";
-import img4 from "../../../public/app.png";
-import img5 from "../../../public/seo.png";
-import img6 from "../../../public/machine.png";
+import arrow from "../../../public/icons/arrow.png";
+import img1 from "../../../public/images/YT.png";
+import img2 from "../../../public/images/facebook.png";
+import img3 from "../../../public/images/web.png";
+import img4 from "../../../public/images/app.png";
+import img5 from "../../../public/images/seo.png";
+import img6 from "../../../public/images/machine.png";
 
 export const ServicesSection = () => {
   return (

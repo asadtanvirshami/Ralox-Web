@@ -1,8 +1,8 @@
 import React,{useEffect} from "react";
 import Image from 'next/image'
 import { Button, Container, Row } from "react-bootstrap";
-import shape01 from "../../../public/services.png";
-import arrow from "../../../public/arrow.png";
+import shape01 from "../../../public/images/services.png";
+import arrow from "../../../public/icons/arrow.png";
 import "aos/dist/aos.css"
 import aos from 'aos'
 
@@ -22,7 +22,7 @@ export const AboutUsSection = () => {
             <li className="aboutus-heading">ABOUT US</li>
             <h1 className="paragraph-heading">Making great thing Possible</h1>
             <p className="paragraph-text mt-3">
-              We are Hail. Technologies, a single solution for all your business
+              We are Ralox, a single solution for all your business
               needs. We offer all IT software services along with consultation
               for small-scale companies.
               <br />

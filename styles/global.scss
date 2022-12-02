@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/revamped');
+body{
+    background-color: rgba(58, 42, 42, 0);
+}
+.Title{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 8.5rem;
+}
+
+.Company_name{
+font-family: 'Revamped', sans-serif;
+background: -webkit-linear-gradient(#ff934c, #fc686f);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.Caption{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 4.5rem;
+}
+
+.hero-img{
+height: 40rem;
+}
+
+@media only screen and (max-width: 1440px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        }
+        .hero-img{
+            height:20rem;
+            }
+}
+@media only screen and (max-width: 1024px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        }
+        .hero-img{
+            height:15rem;
+            }
+}
+@media only screen and (max-width: 786px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        }
+        .hero-img{
+            height:10rem;
+            }
+}
+@media only screen and (max-width: 425px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        }
+}
+

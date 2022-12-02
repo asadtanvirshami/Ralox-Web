@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
-import Logo from "../../public/logohail.png";
 
 export const Header = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="md mx-2" className="nav-container">
-        <Navbar.Brand className="">
-          <Image src={Logo} width={180} height={50} />
+      <Navbar collapseOnSelect expand="md px-2" className="nav-container">
+        <Navbar.Brand className="header_brand">
+          RALOX
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
         <Navbar.Collapse id="responsive-navbar-nav">
