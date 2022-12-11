@@ -30,29 +30,30 @@ export const Header = () => {
             id={`offcanvasNavbar-expand-`}
             aria-labelledby={`offcanvasNavbarLabel-expand`}
             placement="end"
+            className={scrolled? "offcanvas-body-lg":""}
           >
-            <Offcanvas.Header closeButton>
+            <Offcanvas.Header className="mb-2" closeButton>
               <Offcanvas.Title
                 id={`offcanvasNavbarLabel-expand`}
               ></Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
+            <Offcanvas.Body >
               <Nav className="justify-content-center flex-grow-1 pe-1 ">
-                <Nav.Link href="/" className="page-links px-3">
+                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
                   Home
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links px-3">
+                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
                   About Us
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links px-3">
+                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
                   Services
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links px-3">
+                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
                   Our Clients
                 </Nav.Link>
               </Nav>
               <div style={{}}>
-                <Button href="/" className="contact_btn">
+                <Button href="/" className="btn-sm">
                   Contact Us
                 </Button>
               </div>

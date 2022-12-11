@@ -1,99 +1,46 @@
-import React,{useEffect} from "react";
-import Image from 'next/image'
-import { Button, Container, Row } from "react-bootstrap";
-import shape01 from "../../../public/images/services.png";
-import arrow from "../../../public/icons/arrow.png";
-import "aos/dist/aos.css"
-import aos from 'aos'
+/* eslint-disable react/no-unescaped-entities */
+import React from "react";
+
+import { Button, Row, Col } from "react-bootstrap";
 
 export const AboutUsSection = () => {
-  useEffect(() => {
-    aos.init({
-      duration: 1000
-    });
-     
-  }, [])
-  
-  return (
-    <Container>
-      <div className="banner-div mt-5">
-        <h1 className="">Develop Unique-Custom Brand Identities And Online Platforms Through Our Creative Studio That Distinguish You From The Rest And Elevate Your Reputation.</h1>
-      </div>
-      {/* <div className="main-div mt-5 px-4">
-        <Row className="aboutus-row">
-          <div  className="aboutus-col col-md-6 mt-5" >
-            <li className="aboutus-heading">ABOUT US</li>
-            <h1 className="paragraph-heading">Making great thing Possible</h1>
-            <p className="paragraph-text mt-3">
-              We are Ralox, a single solution for all your business
-              needs. We offer all IT software services along with consultation
-              for small-scale companies.
-              <br />
-              <br />
-              It’s our first-hand experience with big-ticket clients that has
-              led to the development of an innovative mindset. Expect Hail.
-              Technologies team to stay on their feet to address all your
-              worries.
-            </p>
-            <div className="process-div row mb-5">
-              <div className="col-md-12 mb-5">
-                <span className="main-span">
-                  <h5 className="sub-headings px-3">
-                    Information to Marketing needs
-                  </h5>
-                  <p className="sub-text mx-3">
-                    You uncover great secrets when you probe into customers
-                    mindset. This was the stance that helped Hail. to work out
-                    fantastic campaigns for its clients. It intends to continue
-                    learning new marketing strategies and giving a competitive
-                    edge to its customers.
-                  </p>
-                </span>
-                <span className="main-span">
-                  <h5 className="sub-headings px-3">
-                    Better SEO and Market Research
-                  </h5>
-                  <p className="sub-text mx-3">
-                    We have heavily relied on knowledge-oriented
-                    decision-making, and rightfully so. Our market research and
-                    great SEO skills has helped companies to carve Clients
-                    website on top of google search.
-                  </p>
-                </span>
-                <span className="main-span">
-                  <h5 className="sub-headings px-3">Website and Application</h5>
-                  <p className="sub-text mx-3">
-                    Every Business, big or small require an online presence
-                    which includes website and application, sometimes both. So
-                    why look any further? This is where you find satisfaction.
-                    We provide work and trust at a same platform.
-                  </p>
-                </span>
-                <span className="aboutus-btn-div mx-3 mt-5">
-                  <Button className="aboutus-btn col-md-6">
-                    About us
-                    <span style={{ float: "right", marginTop:2}}>
-                      <Image
-                        height={30}
-                        width={32}
-                        src={arrow}
-                        className="img-fluid"
-                      />
-                    </span>
-                  </Button>
-                </span>
-              </div>
-            </div>
-          </div>
 
-          <div className="aboutus-col col-md-6">
-            <div className="mt-1">
-              <Image src={shape01} />
+  return (
+    <section className="about add_before">
+    <div className="container">
+      <div className="about-us-section">
+        <Row style={{marginTop:50,}}>
+          <Col md={6} style={{marginTop:30}}>
+            <p style={{color:'#ED213A',fontSize:22,fontWeight:'600'}}>What We Stand For</p>
+            <h2 style={{color:'#232529'}}>The Most Creative Studio Agency In The Global Market</h2>
+            <h3 className="mt-4">
+              What We Stand For The Most Creative Studio Agency In The Global
+              Market What was once a small, competing digital agency in 2018
+              is now one of the leading digital hubs that has helped countless
+              start-up businesses to stand up on their feet across the globe.
+              We don’t make logos; we create brand identities; we don’t make
+              websites; we make an online presence. With a flexible, capable
+              and experienced team of digital players working in a creative
+              studio, our game-changing deliveries give our clients the direct
+              path to prosperity and success in these extraordinarily
+              competitive times.
+            </h3>   
+             <div className="text-center mt-5">
+              <div className="">
+                <Button className="btn-lg mx-1 mb-5">Start Project</Button>{" "}
+                <Button className="btn-xlg mx-1 mb-5">Our Portfolio</Button>
+              </div>
+            </div>         
+            </Col>
+          <Col md={6}>
+            <div style={{top:0}}>
+              <img src={"meet.png"} className="img-fluid" />
             </div>
-          </div>
+          </Col>
         </Row>
-      </div> */}
-    </Container>
+      </div>
+    </div>
+  </section>
   );
 };
 
