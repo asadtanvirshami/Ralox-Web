@@ -1,11 +1,26 @@
-import React from "react";
+import React,{useEffect,useState,useRef} from "react";
 import Image from "next/image";
 import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 export const Header = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const listenToScroll = () => {
+      if (window.pageYOffset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
+
   return (
     <>
-      <Navbar collapseOnSelect expand="md px-2" className="nav-container">
+      <Navbar collapseOnSelect expand="md px-2" className={scrolled? "header-shrink":"nav-container"}>
         <Navbar.Brand className="header_brand">
           RALOX
         </Navbar.Brand>

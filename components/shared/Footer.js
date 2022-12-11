@@ -1,21 +1,19 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import Logo from "../../public/logo.png";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer style={{ backgroundColor: " #0c73bb", marginTop: 100, padding: 15 }}>
+    <footer style={{ backgroundColor: "#232529", marginTop: 100, padding: 15 }}>
       <Row className="justify-content-center">
-            <Col className="img-list justify-content-center" md={1} style={{alignSelf:"center"}}>
-              <Image src={Logo} className="img-fluid" height={120} width={120} />
+            <Col className=" justify-content-center" md={2} style={{alignSelf:"center"}}>
+            <h1 style={{fontSize:60}} className='Company_name'>RALOX</h1>
             </Col>
         <Col md={4} xs={12} xl={3} className="details-col">
           <ul>
             <li className="text-list">
               <p>
-                We are Hail. Technologies, a single solution for all your
+                We are Ralox, a single solution for all your
                 business needs. We offer all IT software services along with
                 consultation for small-scale companies. It’s our first-hand
                 experience with big-ticket clients that has led to the
@@ -35,9 +33,6 @@ export const Footer = () => {
             </li >
             <li className="text-list">
               <h5>Toronto,Canada</h5>
-            </li>
-            <li className="text-list">
-            <h5>KualaLumpur,Malaysia</h5>
             </li>
           </ul>
         </Col>

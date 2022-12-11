@@ -1,80 +1,314 @@
-// Carousel section
-.text-div{
-    text-align: center;
+
+.section-div{
+    background: url('../../public/banner.jpg') ;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
     position: relative;
-    bottom: 100px;
-    color: white !important;
-}
-.mySwiper{
-    
+    z-index: 1;  
+    max-width: 100%;
+ 
 }
 
-// AboutUsSection
-.main-div {
-background-image: url('../../public/icons/back.png');
-background-size: cover;
-background-repeat: no-repeat;
-}
-.aboutus-heading {
-color: #0c73bb;
-font-weight: 600;
-}
-.paragraph-heading {
-font-weight: 700;
-}
-.paragraph-text {
-text-align: justify;
-}
-.sub-headings {
-color: #0c73bb;
-}
-.process-div {
- display: flex;
-flex-wrap: nowrap;
-}
-.main-span{
-background-image: url('../../public/icons/checkmark.png');
-background-repeat: no-repeat;
-background-size:31px;
-padding-bottom: 1px;
-padding-left: 30px;  /* width of the image plus a little extra padding */
-display: block;  /* may not need this, but I've found I do */
-}
-.sub-text{
-text-align: justify;    
-}
-.aboutus-btn{
-    display: inline-block;
-    background-color: #ff934c;
-    width: 180px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius:30px;
-    font-weight: 630;
-    font-size:23px;
-    position: relative !important ;
-    overflow:hidden !important ;
-}
-.aboutus-btn:hover{
-    background-color: #000000 !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius:30px;
-    font-weight: 630;
-}
-.aboutus-btn::before{
-    content: '' !important;
-    position: absolute !important;
-    top: 0;
-    left: -100%;
+.section-div:after {
+    position: absolute;
+    content: "";
+    /* background-color: aliceblue; */
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg,transparent,rgb(250, 243, 243),transparent);
-    transition:0.5s;
+    left: 0;
+    top: 0;
+    background: linear-gradient( 90deg, #fff, #f4f4f473);
+    z-index: -1;
 }
-.aboutus-btn:hover::before{
-    left:100%;
+
+.content{
+    color: #000;
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
+  /* Centered text */
+
+.Title{
+font-family: 'Poppins', sans-serif !important;
+font-size: 90px;
+}
+.Company_name{
+    font-family: 'Revamped', sans-serif;
+    background: -webkit-linear-gradient(#ED213A, #93291E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    .headline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    }
+    
+    .Caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    }
+    
+    .banner-img{
+    max-width: 100%;
+    opacity: 0.7;
+    -webkit-mask-image: linear-gradient(to right, transparent 20%, black 100%);
+    mask-image: linear-gradient(to right, transparent 2%, black 100%);
+    }
+    
+@media only screen and (max-width: 1440px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        }
+            
+    .headline{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        }
+  
+            .centered {
+                position: absolute;
+                right: 15%;
+                bottom: 10rem;
+                left: 3%;
+                padding-top: 1.25rem;
+                padding-bottom: 1.25rem;
+                color: black;
+                text-align: left;
+            }
+}
+@media only screen and (max-width: 1024px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 55px;
+        }
+        .headline{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 32px;
+            }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        }
+      
+            .centered {
+                position: absolute;
+                right: 15%;
+                bottom: 10rem;
+                left: 3%;
+                padding-top: 1.25rem;
+                padding-bottom: 1.25rem;
+                color: black;
+                text-align: left;
+            }
+}
+@media only screen and (max-width: 786px) {
+    .Title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        }
+        .headline{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        }
+        .centered {
+            position: absolute;
+            right: 15%;
+            bottom: 5rem;
+            left: 3%;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            color: black;
+            text-align: left;
+        }
+}
+@media only screen and (max-width: 425px) {
+    .Title{
+        bottom:0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        }
+        .headline{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        }
+        .centered {
+            position: absolute;
+            right: 15%;
+            bottom: 1rem;
+            left: 3%;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            color: black;
+            text-align: left;
+        }
+}
+@media only screen and (max-width: 375px) {
+    .Title{
+        bottom:0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        }
+        .headline{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        }
+        .centered {
+            position: absolute;
+            right: 15%;
+            bottom: 1rem;
+            left: 3%;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            color: black;
+            text-align: left;
+        }
+}
+@media only screen and (max-width: 320px) {
+    .Title{
+        bottom:0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        }
+        .headline{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            }
+    .Caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        }
+        .centered {
+            position: absolute;
+            right: 15%;
+            bottom: 1rem;
+            left: 3%;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            color: black;
+            text-align: left;
+        }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services{
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-image: url("../../public/waves.jpg");
+    z-index: 1;}
+
+.service-in li {
+    box-shadow: 2px 2px 15px gray !important;
+    position: relative;
+    width: calc(90%/5);
+    float: left;
+    margin: 40px 15px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    flex-direction: column;
+    padding: 0 45px;
+    position: relative;
+    border: 1px solid;
+    border-color: color;
+    cursor: grabbing;
+    transition: all .5s ease;
+    
+    &:hover{
+    transform: translateY(20px)}
+}
+
+@media (max-width: 1366px){
+section .services, .content_2 li {
+    min-height: 220px;
+}}
+@media (max-width: 1440px){
+    .content_2 li  {
+        min-height: 250px;
+        margin: 40px 6px;
+        width: calc(95%/5);
+    }
+    .card-text  {
+     font-size: 20px;
+    }}        
+@media (max-width: 1199px){
+    .content_2 li  {
+        min-height: 250px;
+        margin: 40px 5px;
+        width: calc(93%/5);
+    }
+    .card-text  {
+     font-size: 20px;
+    }}      
+@media (max-width: 1680px){
+    section.services .content ul.service-in li {
+        margin: 40px 10px;
+        min-height: 240px;
+    }}
+@media (max-width: 768px){
+        .content_2 li  {
+        margin: 40px 15px;
+        min-height: 260px;
+        width: calc(90%/2);
+    }}
+@media (max-width: 425px){
+    .content_2 li  {
+        width: calc(183%/2);
+        min-height: 300px;
+        align-items: center;
+    }}
+@media (max-width: 375px){
+    .content_2 li  {
+        width: calc(180%/2);
+        min-height: 300px;
+        align-items: center;
+    }}
+
+.bottom-heading{
+    font-family: 'revamped';
+    font-size: 45px;
+}
+
+.bottom-text{
+    font-weight: 750;
+}
+
+// AboutUsSectio
 
 .aboutus-col  {
     animation: fadeInLeft 3s;
@@ -110,6 +344,23 @@ text-align: justify;
  -webkit-animation-name: fadeInLeft;
  animation-name: fadeInLeft;
  } 
+
+//  .about{
+//     position: relative;
+//     z-index: 1;}
+    
+//  .about::before{
+//     background: url('../../public/blob.svg')no-repeat !important;
+//     width: 560px;
+//     height: 300px;
+//     left: 0;
+//     top: 70%;
+//  }
+
+//  .add_before:before {
+//     position: absolute;
+//     content: "";
+// }
 
 
 // Services Section

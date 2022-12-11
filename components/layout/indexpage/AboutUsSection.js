@@ -16,7 +16,10 @@ export const AboutUsSection = () => {
   
   return (
     <Container>
-      <div className="main-div mt-5 px-4">
+      <div className="banner-div mt-5">
+        <h1 className="">Develop Unique-Custom Brand Identities And Online Platforms Through Our Creative Studio That Distinguish You From The Rest And Elevate Your Reputation.</h1>
+      </div>
+      {/* <div className="main-div mt-5 px-4">
         <Row className="aboutus-row">
           <div  className="aboutus-col col-md-6 mt-5" >
             <li className="aboutus-heading">ABOUT US</li>
@@ -89,7 +92,7 @@ export const AboutUsSection = () => {
             </div>
           </div>
         </Row>
-      </div>
+      </div> */}
     </Container>
   );
 };

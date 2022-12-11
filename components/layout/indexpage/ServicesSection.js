@@ -12,7 +12,7 @@ import img6 from "../../../public/images/machine.png";
 export const ServicesSection = () => {
   return (
     <Container>
-      <div className="services-main-div mt-5 ">
+      {/* <div className="services-main-div mt-5 ">
         <h1 className="text-center service-heading mb-5">Our Services</h1>
         <div className="justify-content-center row p-2">
           <div
@@ -231,7 +231,7 @@ export const ServicesSection = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Container>
   );
 };

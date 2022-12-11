@@ -1,5 +1,6 @@
 import { Layout } from "../components/shared/Layout"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'aos/dist/aos.css';
 import '../styles/main.scss';
 
 function MyApp({ Component, pageProps }) {

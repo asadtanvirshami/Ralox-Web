@@ -1,6 +1,33 @@
+header{
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all .8s ease !important;
+}
+
+.header-shrink{ 
+    background-color:#232529;   
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    color:red;
+    transition: all .8s ease !important;}
+
+.nav-container{
+    padding: 4px 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all .8s ease !important;
+
+}
+    
+
 .header_brand{
 font-family: 'Revamped', sans-serif;
-background: -webkit-linear-gradient(#ff934c, #fc686f);
+background: -webkit-linear-gradient(#ED213A, #93291E);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 30px;
@@ -9,12 +36,12 @@ font-size: 30px;
 .page-links{
     font-weight: 640;
     font-size: large;
-    color: black;
+    color: white;
 }
 .page-links:hover{
     font-weight: 640;
     font-size: large;
-    background: -webkit-linear-gradient(#ff934c, #fc686f);
+    background: -webkit-linear-gradient(#ED213A, #93291E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -27,61 +54,24 @@ font-size: 30px;
     border:solid transparent 0.1px;
     cursor: pointer !important ;
     font-family: Arial, Helvetica, sans-serif !important;
-    font-weight: 400;
+    font-weight: 640;
   }
 .page-links:hover:after{
-    border-bottom: solid 3px #fc686f ;
+    border-bottom: solid 3px #ED213A ;
     cursor: pointer !important;
     transition-duration: 800ms;
     transform: scaleX(1) !important;    
 }
-.nav-container{
-    position: relative !important;
-    height: 73px;
- box-shadow:0px 3px 3px silver;
-}
-.contact_btn{
-    background-color: #0c73bb;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius:30px;
-    font-weight: 630;
-    position: relative !important ;
-    overflow:hidden !important ;
-}
-.contact_btn:hover{
-    background-color: #0c73bb !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius:30px;
-    font-weight: 630;
-}
-.contact_btn::before{
-    content: '' !important;
-    position: absolute !important;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg,transparent,rgb(250, 243, 243),transparent);
-    transition:0.5s;
-}
-.contact_btn:hover::before{
-    left:100%;
-}
-.navbar-toggler{
-    border-radius: 25px;
-    background-color: #0c73bb;
-    border-color: #0c73bb;
-}
+
 .navbar-toggler-icon{
     background-image: url('../public/icons/icons8-menu-24.png');
 }
 .navbar-toggler:focus{
-    color: #0c73bb;
-    border-color: #0c73bb;
+    color: #93291E;
+    border-color: #93291E;
+}
+.navbar-toggler{
+    border-radius: 40px;
+    background-color: #93291E;
+    border-color: #93291E;
 }
