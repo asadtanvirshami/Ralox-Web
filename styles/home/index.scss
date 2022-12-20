@@ -366,103 +366,103 @@ section .services, .content_2 li {
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
     }}
-    @media (max-width: 1440px){
-        .about-us-section h2  {
-            font-size: 50px;
-            font-family: 'Poppins', sans-serif;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        .about-us-section h3  {
-            color: #232529;
-            text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 22px;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }}        
-    @media (max-width: 1199px){
-        .about-us-section h2  {
-            font-size: 50px;
-            font-family: 'Poppins', sans-serif;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        .about-us-section h3  {
-            color: #232529;
-            text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 22px;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }}      
-    @media (max-width: 1680px){
-        .about-us-section h2  {
-            font-size: 30px;
-            font-family: 'Poppins', sans-serif;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        .about-us-section h3  {
-            color: #232529;
-            text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }}
-    @media (max-width: 768px){
-        .about-us-section h2  {
-            font-size: 30px;
-            font-family: 'Poppins', sans-serif;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        .about-us-section h3  {
-            color: #232529;
-            text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 18px;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }}
-    @media (max-width: 425px){
-        .about-us-section h3  {
-            color: #232529;
-            text-align: justify;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            animation: fadeInLeft 3s;
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }}
-    @media (max-width: 375px){
+@media (max-width: 1440px){
+.about-us-section h2  {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.about-us-section h3  {
+    color: #232529;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}}        
+@media (max-width: 1199px){
+.about-us-section h2  {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.about-us-section h3  {
+    color: #232529;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}}      
+@media (max-width: 1680px){
+.about-us-section h2  {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.about-us-section h3  {
+    color: #232529;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}}
+@media (max-width: 768px){
+.about-us-section h2  {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.about-us-section h3  {
+    color: #232529;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}}
+@media (max-width: 425px){
+.about-us-section h3  {
+    color: #232529;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    animation: fadeInLeft 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}}
+@media (max-width: 375px){
         .about-us-section h2  {
             font-size: 30px;
             font-family: 'Poppins', sans-serif;
@@ -511,6 +511,7 @@ section .services, .content_2 li {
  -webkit-animation-name: fadeInLeft;
  animation-name: fadeInLeft;
  } 
+
 
 //  .about{
 //     position: relative;
@@ -626,7 +627,21 @@ section .services, .content_2 li {
 
 // CountUp section
 .countup-div{
-    background: url('../../public/icons/count.png')  no-repeat fixed;
+    // background: url('../../public/icons/waves.png')  no-repeat fixed;
+    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+      z-index: 1;
     background-size:150% 150%;
     color: white;
     text-align: center !important;

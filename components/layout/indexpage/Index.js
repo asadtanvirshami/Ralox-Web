@@ -3,6 +3,8 @@ import React from "react";
 
 import AboutUsSection from "./AboutUsSection";
 import ServicesSection from "./ServicesSection";
+import Section_4 from "./Section4";
+import Count from "./Count";
 
 export const Index = () => {
   return (
@@ -34,6 +36,8 @@ export const Index = () => {
       </div>
       <ServicesSection/>
       <AboutUsSection/>
+      <Section_4/>
+      <Count/>
     </>
   );
 };
