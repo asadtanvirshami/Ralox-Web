@@ -12,8 +12,8 @@ export const AboutUsSection = () => {
         <Row style={{marginTop:50,}}>
           <Col md={6} style={{marginTop:30}}>
             <p style={{color:'#ED213A',fontSize:22,fontWeight:'600'}}>What We Stand For</p>
-            <h2 style={{color:'#232529'}}>The Most Creative Studio Agency In The Global Market</h2>
-            <h3 className="mt-4">
+            <h2 style={{color:'white'}}>The Most Creative Studio Agency In The Global Market</h2>
+            <h3 className="mt-4" style={{color:'white'}}>
               What We Stand For The Most Creative Studio Agency In The Global
               Market What was once a small, competing digital agency in 2018
               is now one of the leading digital hubs that has helped countless

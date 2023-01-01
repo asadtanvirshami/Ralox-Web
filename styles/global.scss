@@ -4,7 +4,9 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 body {
+    background-color: #222;
     font-family: 'Poppins', sans-serif !important;
+    color:white !important
 }
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 100% !important;
@@ -124,4 +126,13 @@ body {
 }
 .btn:hover::before{
     left:100%;
+}
+.tab-btns .nav-link{
+color: rgb(250, 243, 243) !important;
+&:hover{
+    color:#93291E !important;
+}
+&:focus{
+    color:#93291E !important;
+}
 }

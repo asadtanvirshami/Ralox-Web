@@ -617,23 +617,10 @@ section .services, .content_2 li {
 
 // CountUp section
 .countup-div{
-    // background: url('../../public/icons/waves.png')  no-repeat fixed;
-    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
-  
-    /* opera 11.10+ */
-    background:-o-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
-  
-    /* ie 10+ */
-    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
-  
-    /* global 92%+ browsers support */
-    background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+        background-color: white;
       z-index: 1;
     background-size:150% 150%;
-    color: white;
+    color: #ED213A;
     text-align: center !important;
     align-self: center !important;
     padding: 83px;
@@ -655,7 +642,7 @@ background: -webkit-linear-gradient(#ED213A, #93291E);
 }
 .our-pricing .pack {
 z-index: 1;
-box-shadow: 0 3px 15px #ad9dda;
+box-shadow: 0 3px 15px rgb(14, 13, 13);
 margin: 50px 50px 0;
 border-radius: 10px;
 }
@@ -672,7 +659,7 @@ position: absolute;
 left: 0;
 }
 .pack {
-background: white;
+background:#2c2d2e;
 padding: 40px 40px 0;
 position: relative;
 }
@@ -711,6 +698,13 @@ bottom: -16px;
 left: 0;
 }
 .pack h2 sup {
+    color: white;
+font-size: 35px;
+top: -33px;
+left: -1px;
+}
+.pack h2 sup {
+    color: white;
 font-size: 35px;
 top: -33px;
 left: -1px;
@@ -724,6 +718,7 @@ line-height: 57px;
 margin: 0 0 0;
 }
 .pack h2 span {
+    color: white;
 font-size: 16px;
 font-weight: 600;
 line-height: 16px;
@@ -762,7 +757,7 @@ background-size: cover;
 }
 .content::-webkit-scrollbar-thumb {
 border-radius: 10px;
-box-shadow: rgb(0 0 0 / 30%) 0px 0px 6px inset;
+box-shadow: silver 0px 0px 6px inset;
 background: -webkit-linear-gradient(#ED213A, #93291E) 0% 0% no-repeat padding-box padding-box ;
 }
 .pack .add-on{
@@ -779,16 +774,6 @@ display: flex;
 /* flex-wrap: wrap; */
 margin-right: -15px;
 margin-left: -15px;
-}
-
-.pack ul li {
-    font-size: 12px;
-    color: #747177;
-    margin-bottom: 4px;
-    font-weight: 400;
-    position: relative;
-    text-align: left;
-    padding-left: 13px;
 }
 
 /* width */
@@ -830,12 +815,12 @@ background: #ED213A;
 }
 .pack ul li {
     font-size: 12px;
-    color: #747177;
+    color: white;
     margin-bottom: 4px;
-    font-weight: 400;
     position: relative;
     text-align: left;
     padding-left: 13px;
+
 }
 .call-to{
     font-size: 12px; 
@@ -855,6 +840,6 @@ background: #ED213A;
     position: relative;
     top: 18px;
     z-index: 1;
-    box-shadow: 0 3px 5px #662d91;
+    box-shadow: 0 3px 5px black;
     text-decoration: none;
 }
