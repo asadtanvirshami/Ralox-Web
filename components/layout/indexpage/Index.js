@@ -5,6 +5,7 @@ import AboutUsSection from "./AboutUsSection";
 import ServicesSection from "./ServicesSection";
 import Section_4 from "./Section4";
 import Count from "./Count";
+import PricingSection from "./PricingSection/PricingSection";
 
 export const Index = () => {
   return (
@@ -35,9 +36,10 @@ export const Index = () => {
         </section>
       </div>
       <ServicesSection/>
+      <div style={{marginBottom:150}}><Count/></div>
       <AboutUsSection/>
       <Section_4/>
-      <Count/>
+      <PricingSection/>
     </>
   );
 };

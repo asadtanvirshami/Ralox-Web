@@ -18,7 +18,7 @@ const Section_4 = () => {
               <p style={{ color: "#ED213A", fontSize: 22, fontWeight: "600" }}>
                 Created With Passion
               </p>
-              <h2 style={{ color: "#232529" }}>
+              <h2 style={{ color: "#232529" }} className='about-us-heading'>
                 Think of us as an extension of your organization, working
                 tirelessly to give you the results that will take you to the
                 top.
@@ -37,8 +37,7 @@ const Section_4 = () => {
               </h3>
               <div className="text-center mt-5">
                 <div className="">
-                  <Button className="btn-lg mx-1 mb-5">Start Project</Button>{" "}
-                  <Button className="btn-xlg mx-1 mb-5">Our Portfolio</Button>
+                 
                 </div>
               </div>
             </Col>

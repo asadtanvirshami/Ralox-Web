@@ -287,12 +287,19 @@ section .services, .content_2 li {
     }
     .card-text  {
      font-size: 20px;
-    }}      
+    }}   
+@media (max-width: 1920px){
+    .content_2 li  {
+    margin: 40px 10px;
+    min-height: 260px;
+    width: calc(90%/5);
+}}   
 @media (max-width: 1680px){
     section.services .content ul.service-in li {
         margin: 40px 10px;
         min-height: 240px;
     }}
+
 @media (max-width: 768px){
         .content_2 li  {
         margin: 40px 15px;
@@ -355,6 +362,7 @@ section .services, .content_2 li {
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
     }
+    
     .about-us-section h3  {
         color: #232529;
         text-align: justify;
@@ -388,6 +396,7 @@ section .services, .content_2 li {
     animation-fill-mode: both;
 }}        
 @media (max-width: 1199px){
+
 .about-us-section h2  {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
@@ -512,25 +521,6 @@ section .services, .content_2 li {
  animation-name: fadeInLeft;
  } 
 
-
-//  .about{
-//     position: relative;
-//     z-index: 1;}
-    
-//  .about::before{
-//     background: url('../../public/blob.svg')no-repeat !important;
-//     width: 560px;
-//     height: 300px;
-//     left: 0;
-//     top: 70%;
-//  }
-
-//  .add_before:before {
-//     position: absolute;
-//     content: "";
-// }
-
-
 // Services Section
 .service-card{
     background-color: #ff944cd0;
@@ -653,4 +643,218 @@ section .services, .content_2 li {
 .countup-number{
     font-size: 45px;
     list-style: none;
+}
+
+//Pricing Section
+.contents h6{
+margin-top: 80px;
+font-size: 30px;
+background: -webkit-linear-gradient(#ED213A, #93291E);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.our-pricing .pack {
+z-index: 1;
+box-shadow: 0 3px 15px #ad9dda;
+margin: 50px 50px 0;
+border-radius: 10px;
+}
+span.best-seller-tag {
+background: #93291E;
+color: white;
+border-radius: 3px 3px 0px 0px;
+top: -25px;
+font-size: 12px;
+letter-spacing: 2px;
+font-weight: 500;
+padding: 3px 11px;
+position: absolute;
+left: 0;
+}
+.pack {
+background: white;
+padding: 40px 40px 0;
+position: relative;
+}
+.our-pricing {
+position: relative;
+padding: 100px 0;
+}
+.pack ,head {
+clear: both;
+float: left;
+width: 90%;
+}
+.head {
+clear: both;
+float: left;
+width: 100%;
+height: 88px;
+}
+.head h3 {
+font-size: 18px;
+color: #ED213A;
+display: inline-block;
+float: left;
+margin: 0;
+position: relative;
+line-height: 24px;
+text-align: left;
+}
+.pack .head h3:after {
+content: '';
+height: 3px;
+width: 60px;
+background: #93291E;
+position: absolute;
+bottom: -16px;
+left: 0;
+}
+.pack h2 sup {
+font-size: 35px;
+top: -33px;
+left: -1px;
+}
+.pack h2 {
+text-align: left !important;
+clear: both;
+font-size: 70px;
+color: #ED213A;
+line-height: 57px;
+margin: 0 0 0;
+}
+.pack h2 span {
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+display: inline-block;
+position: relative;
+top: -20px;
+}
+sup {
+position: relative;
+font-size: 75%;
+line-height: 0;
+vertical-align: baseline;
+}
+.our-pricing .content {
+overflow: auto;
+position: relative;
+max-width: 100%;
+padding: 20px 0;
+height: 240px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: calc(100% + 15px);
+margin-left: -5px;
+display: flex;
+}
+
+.pack:after {
+content: '';
+height: 100px;
+width: 100%;
+position: absolute;
+right: 0;
+bottom: -1px;
+background-size: cover;
+}
+.content::-webkit-scrollbar-thumb {
+border-radius: 10px;
+box-shadow: rgb(0 0 0 / 30%) 0px 0px 6px inset;
+background: -webkit-linear-gradient(#ED213A, #93291E) 0% 0% no-repeat padding-box padding-box ;
+}
+.pack .add-on{
+position: relative;
+padding-top: 8px;
+z-index: 1;
+}
+
+.pricing-main{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+/* flex-wrap: wrap; */
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.pack ul li {
+    font-size: 12px;
+    color: #747177;
+    margin-bottom: 4px;
+    font-weight: 400;
+    position: relative;
+    text-align: left;
+    padding-left: 13px;
+}
+
+/* width */
+.content::-webkit-scrollbar {
+width: 10px;
+}
+  
+/* Track */
+.content::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 10px;
+}
+
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+background: #ED213A;
+}
+
+.pack .add-on:before {
+    content: "";
+    height: 1px;
+    background: #bdbdbd;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: calc(100% + 40px);
+}
+.pkg-addOn{
+    font-size: 12px;
+    background: -webkit-linear-gradient(#ED213A, #93291E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.pack ul li.call-to {
+    display: -webkit-inline-box;
+    width: 45%;
+    float: left;
+}
+.pack ul li {
+    font-size: 12px;
+    color: #747177;
+    margin-bottom: 4px;
+    font-weight: 400;
+    position: relative;
+    text-align: left;
+    padding-left: 13px;
+}
+.call-to{
+    font-size: 12px; 
+    text-align: center !important;
+    color: white !important; 
+}
+.pack a {
+    background: -webkit-linear-gradient(#ED213A, #93291E) 0% 0% no-repeat padding-box padding-box ;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    display: table;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    top: 18px;
+    z-index: 1;
+    box-shadow: 0 3px 5px #662d91;
+    text-decoration: none;
 }
