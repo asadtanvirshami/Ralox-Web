@@ -244,7 +244,8 @@ ul {
     z-index: 1;}
 
 .service-in li {
-    box-shadow: 2px 2px 15px silver !important;
+    border-color: #ED213A !important;
+    box-shadow: 2px 2px 15px black !important;
     position: relative;
     width: calc(90%/5);
     float: left;
@@ -263,6 +264,8 @@ ul {
     transition: all .5s ease;
     
     &:hover{
+        border-color: #ED213A !important;
+        box-shadow: 2px 2px 15px silver !important;
     transform: translateY(20px)}
 }
 

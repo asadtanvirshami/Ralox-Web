@@ -8,13 +8,13 @@ const Webpackage = () => {
       <div className='pack'>
         <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
-        <h3>Special <br/>Logo Package</h3>
+        <h3>Basic <br/>Website Package</h3>
         </div>
         <h2>
         <sup>$</sup>
-        50
+        238
         <span>
-        <strike>$100</strike>
+        <strike>$488</strike>
         Only
         </span>
         </h2> 
@@ -22,15 +22,15 @@ const Webpackage = () => {
         <div className='mCustomScrollBox mCS-light mCSB_vertical mCSB_inside'>
         <div className='mCSB_container mCS_y_hidden mCS_no_scrollbar_y'>
         <ul>
-          <li>4 Original Logo Concepts</li>   
-          <li>4 Revisions</li>   
-          <li>2 Dedicated Logo Designer (Industry Specific) With Grey Scale Format</li>   
-          <li>Free Icon Design</li>   
+          <li>1 jQuery Slider Banner</li>   
+          <li>Contact/Query Form</li>   
+          <li>Complete W3C Certified HTML</li>   
+          <li>48 to 72 hours TAT</li>   
           <li>Formats: .jpeg & .png Only</li>   
-          <li>24 - 48 Hours Turn Around Time for Initial Concepts</li>   
-          <li>Dedicated Account Manager</li>   
-          <li>100% Ownership Rights</li>   
-          <li>100% Money Back Guarantee *</li>    
+          <li>Complete Deployment</li>   
+          <li>100% Satisfaction Guarantee</li>   
+          <li>100% Unique Design Guarantee</li>   
+          <li>100% Money Back Guarantee*</li>    
         </ul>
         </div>   
         </div>  
@@ -45,13 +45,13 @@ const Webpackage = () => {
       <div className='pack'>
         <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
-        <h3>Premium<br/>Logo Package</h3>
+        <h3>Startup<br/>Website Package</h3>
         </div>
         <h2>
         <sup>$</sup>
-        150
+        394
         <span>
-        <strike>$250</strike>
+        <strike>$700</strike>
         Only
         </span>
         </h2> 
@@ -59,18 +59,18 @@ const Webpackage = () => {
         <div className='mCustomScrollBox mCS-light mCSB_vertical mCSB_inside'>
         <div className='mCSB_container mCS_y_hidden mCS_no_scrollbar_y'>
         <ul>
-          <li>12 Original Logo Concepts</li>   
-          <li>Unlimited Revisions</li>   
-          <li>4 Dedicated Logo Designer (Industry Specific)</li>   
-          <li>Stationery Designs (Business Card, Letterhead, Envelope)</li>   
-          <li>Email Signature Design</li>   
-          <li>With Grey Scale Format</li>   
-          <li>Free Icon Design</li>   
-          <li>Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG</li>   
-          <li>24 - 48 Hours Turn Around Time for Initial Concepts</li>   
-          <li>Dedicated Account Manager</li>   
-          <li>100% Ownership Rights</li>   
-          <li>100% Money Back Guarantee</li>    
+        <li>5 Stock Photos</li>   
+          <li>5 Page Website</li>   
+          <li>3 Banner Design</li>   
+          <li>1 jQuery Slider Banner</li>   
+          <li>FREE Google Friendly Sitemap</li>   
+          <li>Complete W3C Certified HTML</li>   
+          <li>48 to 72 hours TAT</li>   
+          <li>100% Satisfaction Guarantee</li>   
+          <li>100% Unique Design Guarantee</li>   
+          <li>100% Money Back Guarantee *</li>   
+          <li>Mobile Responsive will be Additional $200*</li>   
+          <li>CMS will be Additional $250*</li>    
         </ul>
         </div>   
         </div>  
@@ -85,13 +85,13 @@ const Webpackage = () => {
       <div className='pack'>
         <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
-        <h3>Ultimate<br/>Logo Package</h3>
+        <h3>Professional<br/>Website Package</h3>
         </div>
         <h2>
         <sup>$</sup>
-        350
+        844
         <span>
-        <strike>$480</strike>
+        <strike>$1600</strike>
         Only
         </span>
         </h2> 
@@ -99,21 +99,29 @@ const Webpackage = () => {
         <div className='mCustomScrollBox mCS-light mCSB_vertical mCSB_inside'>
         <div className='mCSB_container mCS_y_hidden mCS_no_scrollbar_y'>
         <ul>
-          <li>Unlimited Original Logo Concepts</li>   
-          <li>Unlimited Revisions</li>   
-          <li>8 Dedicated Logo Designer (Industry Specific)</li>   
-          <li>Stationery Designs (Business Card, Letterhead, Envelope)</li>   
-          <li>T shirt Design</li>   
-          <li>Merchandise Design (2 items of your choice)</li>   
-          <li>5 second logo Animation</li>   
-          <li>Email Signature Design</li>   
-          <li>With Grey Scale Format</li>   
-          <li>Free Icon Design</li>   
-          <li>Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG</li>   
-          <li>24 - 48 Hours Turn Around Time for Initial Concepts</li>   
-          <li>Dedicated Account Manager</li>   
-          <li>100% Ownership Rights</li>   
-          <li>100% Money Back Guarantee</li>   
+          <li>8 Logo Design Concepts</li>
+          <li>By 3 Award Winning Designers</li>
+          <li>Icon Design</li>
+          <li>UNLIMITED Revisions</li>
+          <li>Stationary Design (Business Card, Letterhead & Envelope)</li>
+          <li>15-20 Pages Website</li>
+          <li>Custom Made, Interactive, Dynamic & High End Design</li>
+          <li>Customized Design</li>
+          <li>Unlimited Products</li>
+          <li>Content Management System (CMS)</li>
+          <li>Full Shopping Cart Integration</li>
+          <li>Payment Module Integration</li>
+          <li>Sales & Inventory Management</li>
+          <li>Customer Log-in Area</li>
+          <li>Mobile Responsive</li>
+          <li>Facebook, Twitter, YouTube, Google+ & Pinterest Page Designs</li>
+          <li>Dedicated Account Manager</li>
+          <li>Unlimited Revisions</li>
+          <li>All Final File Formats</li>
+          <li>100% Ownership Rights</li>
+          <li>100% Satisfaction Guarantee</li>
+          <li>100% Unique Design Guarantee</li>
+          <li>100% Money Back Guarantee*</li>
         </ul>
         </div>   
         </div>  

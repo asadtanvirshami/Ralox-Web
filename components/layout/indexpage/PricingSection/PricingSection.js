@@ -1,6 +1,9 @@
 import React from 'react'
 import { Tab, Tabs } from 'react-bootstrap'
+import EcomPackage from './EcomPackage'
 import LogoPackage from './LogoPackage'
+import MobileAppPackage from './MobileAppPackage'
+import ShopifyPackage from './ShopifyPackage'
 import Webpackage from './Webpackage'
 
 const PricingSection = () => {
@@ -20,9 +23,11 @@ const PricingSection = () => {
             <Tab eventKey="Web" title="Web Packages">
               <Webpackage/>
             </Tab>
-            <Tab eventKey="App" title="App Packages">
+            <Tab eventKey="Ecom" title="Ecom-Website Packages">
+             <EcomPackage/>
             </Tab>
-            <Tab eventKey="App" title="App Packages">
+            <Tab eventKey="Shopify" title="Shopify Packages">
+            <ShopifyPackage/>
             </Tab>
             <Tab eventKey="App" title="App Packages">
             </Tab>
