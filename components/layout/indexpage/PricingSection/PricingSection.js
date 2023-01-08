@@ -2,9 +2,10 @@ import React from 'react'
 import { Tab, Tabs } from 'react-bootstrap'
 import EcomPackage from './EcomPackage'
 import LogoPackage from './LogoPackage'
-import MobileAppPackage from './MobileAppPackage'
+import SMMPackage from './SMMPackage'
 import ShopifyPackage from './ShopifyPackage'
 import Webpackage from './Webpackage'
+import SeoPackage from './SeoPackage'
 
 const PricingSection = () => {
   return (
@@ -29,9 +30,11 @@ const PricingSection = () => {
             <Tab eventKey="Shopify" title="Shopify Packages">
             <ShopifyPackage/>
             </Tab>
-            <Tab eventKey="App" title="App Packages">
+            <Tab eventKey="SMM" title="SMM Packages">
+            <SMMPackage/>
             </Tab>
-            <Tab eventKey="App" title="App Packages">
+            <Tab eventKey="SEO" title="SEO Packages">
+            <SeoPackage/>
             </Tab>
             </Tabs>
            

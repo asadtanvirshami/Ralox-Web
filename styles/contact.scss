@@ -1,0 +1,29 @@
+.section-div_main{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 20vh;
+    min-height: 1000px;
+    align-items: center;
+    position: relative;
+    z-index: 1;  
+    max-width: 100%;
+}
+
+.section-div_main{
+      /* ff 3.6+ */
+  background:-moz-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+    z-index: 1;
+}

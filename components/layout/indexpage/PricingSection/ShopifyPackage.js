@@ -62,13 +62,13 @@ const ShopifyPackage = () => {
       <div className='pack'>
         <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
-        <h3>Professional<br/>Ecom-Website Package</h3>
+        <h3>Professional<br/>Shopify Package</h3>
         </div>
         <h2>
         <sup>$</sup>
-        844
+        1288
         <span>
-        <strike>$1240</strike>
+        <strike>$3200</strike>
         Only
         </span>
         </h2> 
@@ -76,20 +76,32 @@ const ShopifyPackage = () => {
         <div className='mCustomScrollBox mCS-light mCSB_vertical mCSB_inside'>
         <div className='mCSB_container mCS_y_hidden mCS_no_scrollbar_y'>
         <ul>
-          <li>10 Unique Pages Website</li>   
-          <li>CMS / Admin Panel Support </li>   
-          <li>8 Stock images</li>   
-          <li>5 Banner Designs</li>   
-          <li>1 jQuery Slider Banner</li>   
-          <li>FREE Google Friendly Sitemap</li>   
-          <li>Complete W3C Certified HTML</li>   
-          <li>48 to 72 hours TAT</li>   
-          <li>Complete Deployment</li>   
-          <li>100% Satisfaction Guarantee</li>   
-          <li>100% Unique Design Guarantee</li>   
-          <li>100% Money Back Guarantee</li>    
-          <li>Mobile Responsive will be Additional $200*</li>    
-          <li>CMS will be Additional $250*</li>    
+          <li>Custom design homepage(2x concepts)</li>   
+          <li>10 Custom designed inner pages</li>   
+          <li>Up to 100-250 products</li>   
+          <li>Up to 15 categories</li>   
+          <li>Content management system</li>   
+          <li>Sales & Inventory management</li>   
+          <li>Full shopping cart integration</li>   
+          <li>Payment gateway integration</li>   
+          <li>Social media integration (Facebook ,Twitter, LinkedIn)</li>   
+          <li>Easy product search</li>   
+          <li>8 Premium stock photo</li>   
+          <li>5 Promotional banners</li>    
+          <li>Interactive jQuery slider</li>    
+          <li>Cross platform(desktop, iPhone, android etc.) responsive compatibility</li>    
+          <li>Cross browsers (Chrome, Firefox, Safari, etc.) compatibility</li>    
+          <li>W3C certified HTML</li>    
+          <li>Google friendly sitemap</li>    
+          <li>Complete deployment</li>    
+          <li>30 Days free maintenance(post-launch support</li>    
+          <li>Industry specified team of expert designers and developers</li>    
+          <li>Dedicated account manager</li>    
+          <li>24/7 Customer support</li>    
+          <li>100% Satisfaction guarantee</li>    
+          <li>100% Money back guarantee*</li>    
+          <li>Complete brand identity ($199)</li>    
+          <li>Live chat/bot chat integration</li>    
         </ul>
         </div>   
         </div>  
@@ -104,13 +116,13 @@ const ShopifyPackage = () => {
       <div className='pack'>
         <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
-        <h3>Elite<br/>Ecom-Website Package</h3>
+        <h3>Business<br/>Shopify Package</h3>
         </div>
         <h2>
         <sup>$</sup>
-        1,494
+        1999
         <span>
-        <strike>$2000</strike>
+        <strike>$5600</strike>
         Only
         </span>
         </h2> 
@@ -118,28 +130,26 @@ const ShopifyPackage = () => {
         <div className='mCustomScrollBox mCS-light mCSB_vertical mCSB_inside'>
         <div className='mCSB_container mCS_y_hidden mCS_no_scrollbar_y'>
         <ul>
-          <li>Upto 15 Unique Pages Websites</li>   
-          <li>On Page SEO</li>   
+          <li>Unlimited Pages Website with Unique Design</li>   
+          <li>5 Custom Logo Design</li>   
           <li>CMS / Admin Panel Support</li>   
+          <li>CMS / Backend Administrative System</li>   
+          <li>Unlimited Products with Unlimited Categories</li>   
+          <li>FREE Unlimited Revisions</li>   
+          <li>Custom Shopping Cart Integration</li>   
+          <li>Multiple Payment Module Integration</li>   
+          <li>Multiple Shipping Module Integration</li>   
+          <li>Product Ratings & Reviews</li>   
+          <li>Sales & Inventory Management System</li>   
+          <li>Multiple Currency Support</li>   
+          <li>Customer Login Area (Sign-Up & Sign-In)</li>   
           <li>Mobile Responsive</li>   
-          <li>Online Reservation/Appointment Tool (Optional)</li>   
-          <li>Online Payment Integration (Optional)</li>   
-          <li>Custom Forms</li>   
-          <li>Lead Capturing Forms (Optional)</li>   
-          <li>Striking Hover Effects</li>   
-          <li>Newsletter Subscription (Optional)n</li>   
-          <li>Newsfeed Integration</li>   
-          <li>Social Media Integration</li>   
-          <li>Search Engine Submission</li>   
-          <li>15 Stock Photos</li>   
-          <li>8 Unique Banner Design</li>   
+          <li>Social Media Designs (Facebook, Twitter, YouTube)</li>   
           <li>1 jQuery Slider Banner</li>   
-          <li>Complete W3C Certified HTML</li>   
-          <li>48 to 72 hours TAT</li>   
-          <li>Complete Deployment </li>   
+          <li>Dedicated Team of Expert Designers & Developers</li>   
+          <li>Dedicated Project Manager</li>   
+          <li>News Letter Subscription</li>   
           <li>100% Satisfaction Guarantee</li>   
-          <li>100% Unique Design Guarantee</li>   
-          <li>100% Money Back Guarantee</li>   
         </ul>
         </div>   
         </div>  

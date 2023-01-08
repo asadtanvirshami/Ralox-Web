@@ -6,31 +6,33 @@ export const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const listenToScroll = () => {
-      if (window.pageYOffset > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", listenToScroll);
-    return () => window.removeEventListener("scroll", listenToScroll);
-  }, []);
+  // useEffect(() => {
+  //   const listenToScroll = () => {
+  //     if (window.pageYOffset > 50) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", listenToScroll);
+  //   return () => window.removeEventListener("scroll", listenToScroll);
+  // }, []);
+  // className={scrolled? "header-shrink":"nav-container"}
+  // className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}
 
   return (
     <>
-      <Navbar collapseOnSelect expand="md px-2" className={scrolled? "header-shrink":"nav-container"}>
+      <Navbar collapseOnSelect expand="md px-2" >
         <Navbar.Brand className="header_brand">
           RALOX
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`}  className=''/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-`}
             aria-labelledby={`offcanvasNavbarLabel-expand`}
             placement="end"
-            className={scrolled? "offcanvas-body-lg":""}
+            className="offcanvas-body-lg"
           >
             <Offcanvas.Header className="mb-2" closeButton>
               <Offcanvas.Title
@@ -39,16 +41,16 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body >
               <Nav className="justify-content-center flex-grow-1 pe-1 ">
-                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
+                <Nav.Link href="/" className="page-links-lg px-3">
                   Home
                 </Nav.Link>
-                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
+                <Nav.Link href="/" className="page-links-lg px-3">
                   About Us
                 </Nav.Link>
-                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
+                <Nav.Link href="/" className="page-links-lg px-3">
                   Services
                 </Nav.Link>
-                <Nav.Link href="/" className={scrolled? "page-links-lg px-3":"page-links-sm px-3"}>
+                <Nav.Link href="/" className="page-links-lg px-3">
                   Our Clients
                 </Nav.Link>
               </Nav>
