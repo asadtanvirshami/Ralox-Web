@@ -22,11 +22,11 @@ export const Header = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="md px-2" >
+      <Navbar collapseOnSelect expand="md px-2"  className={scrolled? "header-shrink":"nav-container"} >
         <Navbar.Brand className="header_brand">
           RALOX
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`}  className=''/>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-`}

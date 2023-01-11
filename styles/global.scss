@@ -3,6 +3,18 @@
 @import 'node_modules/aos/src/sass/aos.scss';
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
+
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
 body {
     background-color: #222;
     font-family: 'Poppins', sans-serif !important;

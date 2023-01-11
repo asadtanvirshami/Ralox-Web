@@ -6,6 +6,7 @@ const EcomPackage = () => {
     <div className='row pricing-main justify-content-center'>
       <div className='col-sm-12 col-md-4 col-lg-4'>
       <div className='pack'>
+      <span className='best-seller-tag'>Best Seller</span>
         <div className='head'>
         <h3>Startup <br/>Ecom-Website Package</h3>
         </div>

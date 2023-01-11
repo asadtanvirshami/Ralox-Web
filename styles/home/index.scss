@@ -673,7 +673,7 @@ padding: 100px 0;
 .pack ,head {
 clear: both;
 float: left;
-width: 90%;
+width: 100%;
 }
 .head {
 clear: both;
@@ -706,13 +706,7 @@ font-size: 35px;
 top: -33px;
 left: -1px;
 }
-.pack h2 sup {
-    color: white;
-font-size: 35px;
-top: -33px;
-left: -1px;
-}
-.pack h2 {
+h2 {
 text-align: left !important;
 clear: both;
 font-size: 70px;
@@ -846,3 +840,16 @@ background: #ED213A;
     box-shadow: 0 3px 5px black;
     text-decoration: none;
 }
+@media (max-width: 1199px){
+.pack {
+    margin: 50px 0px 0 !important;
+}}
+@media (max-width: 1680px){
+.pack {
+    padding: 40px 15px 0;
+}}
+@media (max-width: 1440px){
+.pack {
+    padding: 40px 20px 0;
+    margin: 50px 0px 0 !important;
+}}

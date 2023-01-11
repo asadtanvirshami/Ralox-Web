@@ -12,7 +12,7 @@ const SeoPackage = () => {
         </div>
         <h2>
         <sup>$</sup>
-        $3,500
+        3,500
         <span>
         <strike>$4700</strike>
         Only
@@ -67,7 +67,7 @@ const SeoPackage = () => {
         </div>
         <h2>
         <sup>$</sup>
-        $5,000
+        5,000
         <span>
         <strike>$5999</strike>
         Only
