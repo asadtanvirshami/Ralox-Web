@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Row, Col,Form,Button,Forms } from "react-bootstrap";
 
-const index = () => {
+const Index = () => {
     const [email, setEmail] = useState("")
     const [firstname, setFirstname] = useState("")
     const [lastname, setLastname] = useState("")
@@ -100,4 +100,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
