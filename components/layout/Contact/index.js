@@ -11,8 +11,8 @@ const Index = () => {
     const [Query, setQuery] = useState("")
 
   return (
-    <div className="">
-        <Row className="section-div_main"> 
+    <section className="section-div_main">
+        <Row className=""> 
           <Col md={6} className="container">
             <div className=" contact-content">
               <div className="mb-4">
@@ -32,9 +32,23 @@ const Index = () => {
                 <br/>
                 <li>
                   <img src={'email.png'} className='img-fluid mx-3' style={{height:35}}/>
-                  <span style={{position:'relative', top:3}}>Email: raloxsoft@gmail.com</span>
+                  <span style={{position:'relative', top:3}}>Info email: info@raloxsoft.com</span>
                 </li>
                 <br/>
+                <li>
+                  <img src={'email.png'} className='img-fluid mx-3' style={{height:35}}/>
+                  <span style={{position:'relative', top:3}}>Support email: support@raloxsoft.com</span>
+                </li>
+                <br/>
+                <li>
+                  <img src={'location.png'} className='img-fluid mx-3' style={{height:35}}/>
+                  <span style={{position:'relative', top:3}}>Toronto,Canada</span>
+                </li>
+                <br/>
+                <li>
+                  <img src={'location.png'} className='img-fluid mx-3' style={{height:35}}/>
+                  <span style={{position:'relative', top:3}}>Karachi,Pakistan</span>
+                </li>
               </ul>
             </div>
           </Col>
@@ -96,7 +110,7 @@ const Index = () => {
             </div>
           </Col>
         </Row>
-      </div>
+      </section>
   )
 }
 

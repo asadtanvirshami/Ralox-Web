@@ -1,16 +1,31 @@
 
 .section-div{
-    background: url('../../public/banner.jpg') ;
+    background-color: #222;
+    //background: url('../../public/banner.jpg') ;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
-    height: 100vh;
+    height: 85vh;
     min-height: 800px;
     display: flex;
     align-items: center;
     position: relative;
     z-index: 1;  
     max-width: 100%;
+ 
+// .section-div{
+//     background-color: #1a1a1a;
+//     //background: url('../../public/banner.jpg') ;
+//     background-repeat: no-repeat !important;
+//     background-position: center !important;
+//     background-size: cover !important;
+//     height: 100vh;
+//     min-height: 800px;
+//     display: flex;
+//     align-items: center;
+//     position: relative;
+//     z-index: 1;  
+//     max-width: 100%;
  
 }
 
@@ -22,12 +37,12 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: linear-gradient( 90deg, #fff, #f4f4f473);
+    //background: linear-gradient( 90deg, #fff, #f4f4f473);
     z-index: -1;
 }
 
 .content{
-    color: #000;
+    color:#fff;
     margin-top: 10%;
     position: relative;
     width: 100%;
@@ -38,14 +53,14 @@
   /* Centered text */
 
 .Title{
-font-family: 'Poppins', sans-serif !important;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 font-size: 90px;
 }
 .Company_name{
-    font-family: 'Revamped', sans-serif;
-    background: -webkit-linear-gradient(#ED213A, #93291E);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: 'Revamped', sans-serif !important;
+    background: -webkit-linear-gradient(#ED213A, #93291E) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
     }
     
     .headline{
@@ -57,7 +72,10 @@ font-size: 90px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     }
-    
+    .caption2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
     .banner-img{
     max-width: 100%;
     opacity: 0.7;
@@ -78,6 +96,10 @@ font-size: 90px;
     .Caption{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
+        }
+        .caption2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
         }
   
             .centered {
@@ -104,6 +126,10 @@ font-size: 90px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 28px;
         }
+        .caption2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 28px;
+        }
       
             .centered {
                 position: absolute;
@@ -129,6 +155,11 @@ font-size: 90px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
         }
+
+    .caption2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
         .centered {
             position: absolute;
             right: 15%;
@@ -153,6 +184,10 @@ font-size: 90px;
     .Caption{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 15px;
+        }
+        .caption2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
         }
         .centered {
             position: absolute;
@@ -179,6 +214,10 @@ font-size: 90px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 15px;
         }
+        .caption2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+        }
         .centered {
             position: absolute;
             right: 15%;
@@ -203,6 +242,10 @@ font-size: 90px;
     .Caption{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 15px;
+        }
+        .caption2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
         }
         .centered {
             position: absolute;
@@ -268,7 +311,12 @@ ul {
         box-shadow: 2px 2px 15px black !important;
     transform: translateY(-20px)}
 }
-
+.card-text  {
+    font-size: 20px;
+   }
+.bottom-text{
+    font-weight: 750;
+}
 @media (max-width: 1366px){
 section .services, .content_2 li {
     min-height: 220px;
@@ -280,7 +328,7 @@ section .services, .content_2 li {
         width: calc(95%/5);
     }
     .card-text  {
-     font-size: 20px;
+     font-size: 16px;
     }}        
 @media (max-width: 1199px){
     .content_2 li  {
@@ -295,14 +343,20 @@ section .services, .content_2 li {
     .content_2 li  {
     margin: 40px 10px;
     min-height: 260px;
-    width: calc(90%/5);
+    width: calc(90%/6);
 }}   
 @media (max-width: 1680px){
     section.services .content ul.service-in li {
         margin: 40px 10px;
         min-height: 240px;
     }}
-
+@media (max-width: 1024px){
+    .content_2 li  {
+    margin: 40px 10px;
+    min-height: 260px;
+    width: calc(100%/3.25);
+}}   
+    
 @media (max-width: 768px){
         .content_2 li  {
         margin: 40px 15px;
@@ -310,6 +364,10 @@ section .services, .content_2 li {
         width: calc(90%/2);
     }}
 @media (max-width: 425px){
+    .bottom-text{
+        font-weight: 750;
+        font-size: 18px;
+    }
     .content_2 li  {
         width: calc(183%/2);
         min-height: 300px;
@@ -327,15 +385,13 @@ section .services, .content_2 li {
     font-size: 45px;
 }
 
-.bottom-text{
-    font-weight: 750;
-}
 
-// AboutUsSectio
+
+// ==========AboutUsSection========
 
 .about-us-section h2  {
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     animation: fadeInLeft 3s;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
@@ -343,10 +399,9 @@ section .services, .content_2 li {
     animation-fill-mode: both;
 }
  
-.about-us-section h3  {
-    color: #232529;
+.about-us-section p  {
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     font-size: 22px;
     animation: fadeInLeft 3s;
     -webkit-animation-duration: 3s;
@@ -463,16 +518,12 @@ section .services, .content_2 li {
     animation-fill-mode: both;
 }}
 @media (max-width: 425px){
-.about-us-section h3  {
-    color: #232529;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    animation: fadeInLeft 3s;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+.about-us-section h2  {
+font-size: 25px !important;
+}
+
+.about-us-section p{
+font-size: 15px;
 }}
 @media (max-width: 375px){
         .about-us-section h2  {
@@ -524,7 +575,25 @@ section .services, .content_2 li {
  animation-name: fadeInLeft;
  } 
 
-// Services Section
+
+//============Contactform===========
+.contactform-div h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 40px;
+}
+.fields-div{
+    max-width: 50%;
+}
+@media (max-width: 425px){
+    .fields-div{
+        max-width: 100%;
+    }
+    .contactform-div h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+        font-size: 28px;
+    }}
+
+// ===========Services Section==========
 .service-card{
     background-color: #ff944cd0;
     flex-direction:column;
@@ -618,7 +687,7 @@ section .services, .content_2 li {
     }
 }
 
-// CountUp section
+// ===========CountUp section========
 .countup-div{
         background-color: white;
       z-index: 1;
@@ -635,7 +704,7 @@ section .services, .content_2 li {
     list-style: none;
 }
 
-//Pricing Section
+//=========Pricing Section==========
 .contents h6{
 margin-top: 80px;
 font-size: 30px;
@@ -853,3 +922,36 @@ background: #ED213A;
     padding: 40px 20px 0;
     margin: 50px 0px 0 !important;
 }}
+
+//=========Slider Styling========
+.sc img {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+  }
+  .div-slider{
+
+    //    /* ff 3.6+ */
+    //    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+
+    //    /* safari 5.1+,chrome 10+ */
+    //    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+     
+    //    /* opera 11.10+ */
+    //    background:-o-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+     
+    //    /* ie 10+ */
+    //    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+     
+    //    /* global 92%+ browsers support */
+    //    background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
+    //      z-index: 1;
+  }
+  
+  .slick-slide > div {
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0px;
+  }

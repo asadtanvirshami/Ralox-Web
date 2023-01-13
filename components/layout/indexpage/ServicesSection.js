@@ -21,7 +21,7 @@ export const ServicesSection = () => {
                   <a>
                     <li>
                       <img src={"website.png"}></img>
-                      <h4 className="card-text mt-4">Web Development</h4>
+                      <h4 className="card-text mt-4">Web, CRM & ERP Development</h4>
                     </li>
                   </a>
                 </ul>
@@ -40,7 +40,7 @@ export const ServicesSection = () => {
                     <li>
                       <img src={"logo-design.png"}></img>
                       <h4 className="card-text mt-4">
-                        Logo & Brand Strategy
+                      Copy & Content writing
                       </h4>
                     </li>
                   </a>
@@ -60,7 +60,17 @@ export const ServicesSection = () => {
                     <li>
                       <img src={"animation.png"}></img>
                       <h4 className="card-text mt-4">
-                        Video Animation & Production
+                      Graphic Designing & Video Animation 
+                      </h4>
+                    </li>
+                  </a>
+                </ul>
+                <ul>
+                  <a>
+                    <li>
+                      <img src={"recruitment.png"}></img>
+                      <h4 className="card-text mt-4">
+                      Recruitment
                       </h4>
                     </li>
                   </a>

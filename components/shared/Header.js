@@ -24,7 +24,7 @@ export const Header = () => {
     <>
       <Navbar collapseOnSelect expand="md px-2"  className={scrolled? "header-shrink":"nav-container"} >
         <Navbar.Brand className="header_brand">
-          RALOX
+        <img src={"logo.png"} className="img-fluid" style={{height:30}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -44,18 +44,18 @@ export const Header = () => {
                 <Nav.Link href="/" className="page-links-lg px-3">
                   Home
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links-lg px-3">
+                <Nav.Link href="/about" className="page-links-lg px-3">
                   About Us
                 </Nav.Link>
                 <Nav.Link href="/" className="page-links-lg px-3">
                   Services
                 </Nav.Link>
                 <Nav.Link href="/" className="page-links-lg px-3">
-                  Our Clients
+                  Industries
                 </Nav.Link>
               </Nav>
               <div style={{}}>
-                <Button href="/" className="btn-sm">
+                <Button href="/contact" className="btn-sm">
                   Contact Us
                 </Button>
               </div>

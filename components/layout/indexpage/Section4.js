@@ -18,12 +18,12 @@ const Section_4 = () => {
               <p style={{ color: "red", fontSize: 22, fontWeight: "600" }}>
                 Created With Passion
               </p>
-              <h2 style={{color:'white', fontSize:35}} className='about-us-heading'>
+              <h2 style={{color:'white'}}>
                 Think of us as an extension of your organization, working
                 tirelessly to give you the results that will take you to the
                 top.
               </h2>
-              <h3 className="mt-4" style={{color:'white'}}>
+              <p className="mt-4" style={{color:'white'}}>
                 Our branding studio fully understands the difficulty of putting
                 the responsibility and the future of your company in the hands
                 of another; that is why we pour all our skills, time, and
@@ -34,7 +34,7 @@ const Section_4 = () => {
                 solutions that help your business grow and prosper. It’s a
                 failure for us if we can’t get your business to the heights we
                 promised.
-              </h3>
+              </p>
               <div className="text-center mt-5">
                 <div className="">
                  

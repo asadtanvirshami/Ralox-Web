@@ -67,7 +67,7 @@ export const Count = () => {
               <h3>GLORIOUS YEARS</h3>
             </li>
             <li className="countup-number">
-              <CountUp end={2} redraw={true}>
+              <CountUp end={1} redraw={true}>
                 {({ countUpRef, start }) => (
                   <VisibilitySensor onChange={start} delayedCall>
                     <span ref={countUpRef} />

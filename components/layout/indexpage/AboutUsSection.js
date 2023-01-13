@@ -14,20 +14,23 @@ export const AboutUsSection = () => {
                 What We Stand For
               </p>
               <h2 style={{ color: "white" }}>
-                The Most Creative Studio Agency In The Global Market
+                The Most Creative Agency In The Global Market
               </h2>
-              <h3 className="mt-4" style={{ color: "white" }}>
-                What We Stand For The Most Creative Studio Agency In The Global
-                Market What was once a small, competing digital agency in 2018
+              <p className="mt-4" style={{ color: "white"}}>
+                 We are Ralox, a single solution for all your
+                business needs. We offer all IT software services along with
+                consultation for small-scale companies. It’s our first-hand
+                experience with big-ticket clients that has led to the
+                development of an innovative mindset. Expect Ralox Soft
+                team to stay on their feet to address all your worries.
                 is now one of the leading digital hubs that has helped countless
                 start-up businesses to stand up on their feet across the globe.
                 We don’t make logos; we create brand identities; we don’t make
                 websites; we make an online presence. With a flexible, capable
-                and experienced team of digital players working in a creative
-                studio, our game-changing deliveries give our clients the direct
+                and experienced team, our game-changing deliveries give our clients the direct
                 path to prosperity and success in these extraordinarily
                 competitive times.
-              </h3>
+              </p>
               <div className="text-center mt-5">
                 <div className="">
                   <Button className="btn-lg mx-1 mb-5">Start Project</Button>{" "}
@@ -38,7 +41,7 @@ export const AboutUsSection = () => {
             <Col md={6} className="text-center mt-5">
               <div style={{ justifyContent: "center" }}>
                 <img src={"tag.png"} className="img-fluid mb-3" />
-                <h3 className="mt-4" style={{ color: "white" }}>
+                <p className="mt-4" style={{ color: "white" }}>
                   RaloxSoft helps you reach your target audience and connect
                   with them like never before. Every project we work on is
                   created from scratch by our talented team of designers,
@@ -52,7 +55,7 @@ export const AboutUsSection = () => {
                   Create compelling experiences that turn your customers into
                   raving fans. At RaloxSoft, we believe that experience
                   is everything.
-                </h3>
+                </p>
               </div>
             </Col>
           </Row>

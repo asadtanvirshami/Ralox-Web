@@ -14,7 +14,7 @@ const PricingSection = () => {
         <div className='row text-center'>
            <div className='col-md-12'>
             <div className='contents'>
-            <h6 style={{fontWeight:'800'}}>Pricing Plans</h6>
+            <h6 className='mb-4' style={{fontWeight:'800'}}>Pricing Plans</h6>
             </div>
             </div> 
             <Tabs className='tab-btns justify-content-center'>
