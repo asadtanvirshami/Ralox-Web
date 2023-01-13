@@ -55,7 +55,7 @@ export const Header = () => {
                 </Nav.Link>
               </Nav>
               <div style={{}}>
-                <Button href="/contact" className="btn-sm">
+                <Button href="/contact" className="btn-sm mt-1">
                   Contact Us
                 </Button>
               </div>

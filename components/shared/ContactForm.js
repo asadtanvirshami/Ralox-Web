@@ -32,13 +32,9 @@ const ContactForm = () => {
             </Form.Group>
             </Row>
             <Row className="mb-3">
-              <Form.Group as={Col} md={6} controlId="formGridCity">
-                <Form.Label>Country</Form.Label>
-                <Form.Control />
-              </Form.Group>
-              <Form.Group as={Col} controlId="formGridCity">
-                <Form.Label>City</Form.Label>
-                <Form.Control />
+              <Form.Group as={Col} md={12} controlId="formGridCity">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={5} />
               </Form.Group>
             </Row>
 

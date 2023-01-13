@@ -87,11 +87,11 @@ export const Footer = () => {
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4 main-links'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-              <p>
+              {/* <p>
                 <Link href='#!' className='text-reset'>
                   Pricing
                 </Link>
-              </p>
+              </p> */}
               <p>
                 <Link href='/tos' className='text-reset'>
                   Terms & Conditions
@@ -102,11 +102,11 @@ export const Footer = () => {
                   Privacy Policy
                 </Link>
               </p>
-              <p>
+              {/* <p>
                 <Link href='#!' className='text-reset'>
                   Portfolio
                 </Link>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
