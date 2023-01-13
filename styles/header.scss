@@ -8,6 +8,7 @@ header{
 }
 
 .header-shrink{ 
+    margin-top: 0 !important;
     background-color:#232529;   
     padding: 4px 0;
     position: fixed;
@@ -17,6 +18,7 @@ header{
     transition: all .8s ease !important;}
 
 .nav-container{
+    margin-top: 0 !important;
     background-color:#232529;   
     padding: 4px 0;
     position: fixed;
@@ -27,6 +29,7 @@ header{
 }
 
 .offcanvas-body-lg{
+    margin-top: 0;
     background-color: #232529 !important;
     transition: all .1s ease !important;
 }
@@ -101,7 +104,7 @@ font-size: 30px;
 }
 
 .navbar-toggler-icon{
-    background-image: url('../public/icons/icons8-menu-24.png');
+    background-image: url('../public/icons8-menu-24.png') !important  ;
 }
 .navbar-toggler:focus{
     color: #93291E;

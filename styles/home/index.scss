@@ -12,6 +12,15 @@
     position: relative;
     z-index: 1;  
     max-width: 100%;
+.content-div{
+    align-self: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .content-div{
+        margin-top: 0px !important;
+    }
+}
  
 // .section-div{
 //     background-color: #1a1a1a;

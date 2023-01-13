@@ -13,16 +13,16 @@ export const Footer = () => {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/profile.php?id=100089048455736' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </a> */}
+          <a href='https://www.instagram.com/raloxsoft/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='linkedin.com/in/ralox-soft-3781a6262' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
         </div>

@@ -30,7 +30,7 @@ export const Index = () => {
                   </h1>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 col-lg-6" style={{marginTop:130}}>
+              <div className="col-sm-12 col-md-6 col-lg-6 content-div" >
                 <div className="content">
                   <h1 className="headline">
                     <strong>A Creative, Flexible & Affordable Agency</strong>
