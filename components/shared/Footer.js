@@ -44,68 +44,68 @@ export const Footer = () => {
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4 main-links'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <ul>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   Web Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   CRM & ERM Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   Mobile App Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   Digital Marketing SEO&SMM
-                </a> 
+                </Link> 
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                  Recruitment
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                 Graphic Designing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                 Video Animation
-                </a>
+                </Link>
               </li>
               </ul>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4 main-links'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   Pricing
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/tos' className='text-reset'>
+                <Link href='/tos' className='text-reset'>
                   Terms & Conditions
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/privacypolicy' className='text-reset'>
+                <Link href='/privacypolicy'  className='text-reset'>
                   Privacy Policy
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <Link href='#!' className='text-reset'>
                   Portfolio
-                </a>
+                </Link>
               </p>
             </MDBCol>
 
