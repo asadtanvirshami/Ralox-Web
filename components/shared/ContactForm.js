@@ -11,7 +11,7 @@ const ContactForm = () => {
         <div className="justify-content-center m-auto fields-div" >
           <Form>
             <Row className="mb-3">
-              <Form.Group as={Col} md={6} controlId="formGridEmail">
+              <Form.Group as={Col} md={6} controlId="formGridEmail" className="mb-3">
                 <Form.Label>First Name</Form.Label>
                 <Form.Control type="text" placeholder="First Name" />
               </Form.Group>

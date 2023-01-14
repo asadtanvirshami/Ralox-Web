@@ -19,7 +19,6 @@ export const Index = () => {
               <div className="col-sm-12 col-md-6 col-lg-6">
                 <div className="content">
                   <h1 className="Title">
-                    <strong>Welcome to</strong>
                     <i className="Company_name"> <img src={'logo.png'} className="img-fluid"/></i>
                   </h1>
                   <h1 className="headline">

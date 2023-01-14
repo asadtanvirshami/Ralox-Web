@@ -47,10 +47,10 @@ export const Header = () => {
                 <Nav.Link href="/about" className="page-links-lg px-3">
                   About Us
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links-lg px-3">
+                <Nav.Link href="/services" className="page-links-lg px-3">
                   Services
                 </Nav.Link>
-                <Nav.Link href="/" className="page-links-lg px-3">
+                <Nav.Link href="/industries" className="page-links-lg px-3">
                   Industries
                 </Nav.Link>
               </Nav>

@@ -1,8 +1,9 @@
 import React from 'react'
+import Industries from '../components/layout/Industries/'
 
 const industries = () => {
   return (
-    <div>industries</div>
+    <><Industries/></>
   )
 }
 
