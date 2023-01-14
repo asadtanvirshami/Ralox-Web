@@ -4,8 +4,8 @@ import React from "react";
 const privacypolicy = () => {
   return (
     <div className="privacy-section">
-      <div className="container">
-        <div style={{ marginTop: 140 }}>
+      <div className="container ">
+      <div style={{ marginTop: 140 }}>
           <h2>Privacy Policy</h2>
         </div>
         <div style={{ marginTop: 100,marginBottom:100}} className="privacy-content">
