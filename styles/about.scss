@@ -18,9 +18,12 @@
     /* global 92%+ browsers support */
     background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 0, 1) 0%, rgba(237, 33, 58, 1) 0%, rgba(147, 41, 30, 1) 95%, rgba(147, 41, 30, 1) 100%);
 }
-.about-section-main{ background-color: #222; height: 60vh;}
-@media only screen and (max-width: 1024px) {
+.about-section-main{ background-color: #222}
+@media only screen and (max-width: 425px) {
     .about-section-main{ background-color: #222; height: 150vh;}
+}
+.about-page-content {
+    margin-bottom: 100px;
 }
 .about-page-content h3{
     font-size: 50px !important;
