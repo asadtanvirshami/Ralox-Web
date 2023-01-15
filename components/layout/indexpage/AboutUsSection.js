@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from "next/link";
 import React from "react";
 
 import { Button, Row, Col } from "react-bootstrap";
@@ -33,8 +34,8 @@ export const AboutUsSection = () => {
               </p>
               <div className="text-center mt-5">
                 <div className="">
-                  <Button className="btn-lg mx-1 mb-5">Start Project</Button>{" "}
-                  <Button className="btn-xlg mx-1 mb-5">Our Portfolio</Button>
+                 <Link href='/contact'><Button className="btn-lg mx-1 mb-5">Start Project</Button></Link> {" "}
+                 <Link href='/services'><Button className="btn-lg mx-1 mb-5">Industries </Button></Link> {" "}
                 </div>
               </div>
             </Col>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import { Button} from "react-bootstrap";
 
@@ -81,8 +82,8 @@ export const ServicesSection = () => {
         </div>
         <div className="text-center mt-5">
           <div className="">
-            <Button className="btn-lg mx-1 mb-5">Start Project</Button>{" "}
-            <Button className="btn-lg mx-1 mb-5">Our Portfolio</Button>
+          <Link href="/contact"><Button className="btn-lg mx-1 mb-5">Start Project</Button></Link> {" "}
+          <Link href="/services"><Button className="btn-lg mx-1 mb-5">Check Services</Button></Link> {" "}
           </div>
         </div>
       </div>
