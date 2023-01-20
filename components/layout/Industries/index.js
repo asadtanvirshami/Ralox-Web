@@ -11,7 +11,7 @@ const index = () => {
             <Col md={6}>
               <div
                 className="industries-page-content"
-                style={{ marginTop: 150 }}
+                style={{ marginTop: 140 }}
               >
                 <h3>INDUSTRIES WE SPECIALIZE IN</h3>
                 <p>
@@ -79,10 +79,9 @@ const index = () => {
                       <article>
                         <h3>Life Science and Healthcare</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Our marketing campaigns are specifically tailored for
+                          each life science & healthcare company - big and
+                          small-working to overcome their specific challenges.
                         </p>
                       </article>
                     </div>
@@ -93,10 +92,10 @@ const index = () => {
                       <article>
                         <h3>Ecommerce and Retail</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Your ecommerce store will be successful with our
+                          digital advertising plans that are designed to drive
+                          the right type of traffic to your website and convert
+                          more visitors into paying customers.
                         </p>
                       </article>
                     </div>
@@ -109,10 +108,11 @@ const index = () => {
                       <article>
                         <h3>Hi-Tech and Software</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Hi-Tech and Software companies require both technical
+                          expertise and digital marketing expertise. Our digital
+                          marketing plans are designed to boost your online
+                          presence, drive targeted traffic to your website, and
+                          increase sales.
                         </p>
                       </article>
                     </div>
@@ -123,24 +123,26 @@ const index = () => {
                       <article>
                         <h3>Leisure and Gaming</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          The gaming industry is evolving every day. It is
+                          highly competitive, but with the right digital
+                          marketing strategy, you can attract your target
+                          audience and convert them into customers.
                         </p>
                       </article>
                     </div>
                   </Col>
                   <Col className="" md={4}>
                     <div className="details">
-                      <img src={"crm.png"} />
+                      <img src={"finance.png"} />
                       <article>
                         <h3>Financial Software Development</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Are you tired of being bogged down by the mundane task
+                          of creating financial software? Don't worry, we can
+                          help with our digitally-tested solutions which have
+                          been developed with a team of industry-leading
+                          experts. Solve your profit and loss equation with a
+                          scalable solution.
                         </p>
                       </article>
                     </div>
@@ -153,10 +155,9 @@ const index = () => {
                       <article>
                         <h3>Hospitality and Travel</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Travelers demand consistent, personalized experiences.
+                          Use technology to deliver an outstanding experience at
+                          every touchpoint with a promising digital presence.
                         </p>
                       </article>
                     </div>
@@ -167,10 +168,10 @@ const index = () => {
                       <article>
                         <h3>Sports Leagues and Teams</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Give your fans access to live stats, scores, and
+                          highlights: Increase visibility for sponsors and
+                          maximize revenue with an integrated system that
+                          provides seamless game-day operations.
                         </p>
                       </article>
                     </div>
@@ -181,10 +182,11 @@ const index = () => {
                       <article>
                         <h3>Education and Human Resources</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Education & Human Resources are highly competitive
+                          industries that require a lot of creativity, patience
+                          and knowledge. With our help, your business can
+                          attract top talent and get a competitive edge over
+                          your rivals.
                         </p>
                       </article>
                     </div>
@@ -197,10 +199,10 @@ const index = () => {
                       <article>
                         <h3>Real Estate and Property</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Digitalize property listings to streamline management
+                          and improve your clients' buying experience. Create
+                          offers and content that's personalized to your
+                          client's needs.
                         </p>
                       </article>
                     </div>
@@ -211,10 +213,11 @@ const index = () => {
                       <article>
                         <h3>Entertainment and Media</h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          Provide your viewers and listeners with the best
+                          content and a seamless user experience by connecting
+                          all of your systems with one integrated platform. Keep
+                          them hooked with content that's engaging, exciting,
+                          and constantly updated.
                         </p>
                       </article>
                     </div>
@@ -225,10 +228,11 @@ const index = () => {
                       <article>
                         <h3>Automotive and Transport </h3>
                         <p>
-                          With Tailored digital marketing strategies, your
-                          advertising objectives are met on a limited budget
-                          through a variety of methods designed to reach your
-                          target audience and drive results for your business
+                          You can expect our digital marketing campaigns to
+                          deliver results for your automotive and transport
+                          business at affordable rates. We will work with you to
+                          determine your needs and recommend the appropriate
+                          campaign types for your business
                         </p>
                       </article>
                     </div>
@@ -292,7 +296,7 @@ const index = () => {
             </div>
           </div>
         </section>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </div>
   );

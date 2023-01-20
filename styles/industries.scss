@@ -122,7 +122,17 @@
 }
 @media only screen and (max-width: 425px) {
     .industries-section-main{  height: 100vh;}
-  
+    .industries-page-content h3{
+        font-size: 35px !important;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .industries-page-content-2 h3{
+        font-size: 30px !important;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
 }
 
 .content-4-section {
@@ -173,6 +183,12 @@
     .content-4-section {
         height: 190vh;
     }
+    .industries-content-3 h1{
+    text-align: center;
+    font-size: 39.5px !important;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
     
 }
 
